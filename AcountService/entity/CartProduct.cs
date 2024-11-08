@@ -16,7 +16,7 @@ namespace AcountService.entity
 
         public int Quantity { get; set; }
         // Thêm thuộc tính giá
-        public double Price { get; set; } // Giá của sản phẩm tại thời điểm thêm vào giỏ hàng
-        public double TotalPrice { get; set; }     // Giá tổng
+        public decimal Price { get; set; } // Giá của sản phẩm tại thời điểm thêm vào giỏ hàng
+        public decimal TotalPrice { get; set; }     // Giá tổng
     }
 }

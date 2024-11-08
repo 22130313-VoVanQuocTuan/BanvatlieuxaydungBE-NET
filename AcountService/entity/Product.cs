@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BanVatLieuXayDung.entity;
+using System.ComponentModel.DataAnnotations;
 
 namespace AcountService.entity
 {
@@ -9,7 +10,7 @@ namespace AcountService.entity
         public string Name { get; set; }
         public string Description { get; set; }
         public string UrlImage {  get; set; }
-        public double Price { get; set; }
+        public decimal Price { get; set; }
        
 
         public int StockQuantity { get; set; } // Số lượng có sẵn của sản phẩm
@@ -30,6 +31,8 @@ namespace AcountService.entity
 
         public ICollection<CartProduct> CartProducts { get; set; } = new List<CartProduct>();
 
+
+        public ICollection<PromotionalProducts> PromotionalProducts { get; set; } = new List<PromotionalProducts>();
 
 
 

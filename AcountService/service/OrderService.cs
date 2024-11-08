@@ -13,9 +13,12 @@ namespace AcountService.service
     {
         private readonly DataContext _context;
         private readonly IMapper _mapper;
+        private readonly IConfiguration _configuration;
 
-        public OrderService(DataContext context, IMapper mapper)
+        public OrderService(DataContext context, IMapper mapper, IConfiguration configuration)
         {
+            
+            _configuration = configuration;
             _context = context;
             _mapper = mapper;
         }
@@ -23,82 +26,98 @@ namespace AcountService.service
         //Tạo đơn hàng
         public async Task<OrderResponse> CreateOrder(OrderRequest request)
         {
-
-
             try
             {
-                var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == request.UserId);
-                if (user == null)
+                // Tìm giỏ hàng của người dùng
+                var cart = await _context.Carts
+                    .Include(c => c.CartProducts)
+                    .ThenInclude(cp => cp.Product)
+                    .FirstOrDefaultAsync(c => c.UserId == request.UserId);
+
+                if (cart == null || !cart.CartProducts.Any())
                 {
-                    throw new Exception("Người dùng không tồn tại.");
+                    return new OrderResponse
+                    {
+                        IsSuccess = false,
+                        Message = "Giỏ hàng trống hoặc không tồn tại."
+                    };
                 }
 
-                var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UserId == request.UserId);
-                if (cart == null)
+                var vnpReturnUrl = _configuration.GetValue<string>("VNPay:ReturnUrl") ?? "http://127.0.0.1:5500/src/Users/pages/vnpay-return.html";
+
+                // Tạo đối tượng Order
+                var order = new Order
                 {
-                    throw new Exception("Giỏ hàng không tồn tại.");
-                }
-
-                var cartp = await _context.CartProducts.FirstOrDefaultAsync(c => c.CartId == cart.CartId);
-                if (cartp == null)
-                {
-                    throw new Exception("Không có sản phẩm trong giỏ hàng.");
-                }
-
-
-
-                var order = _mapper.Map<Order>(request);
-                order.OrderDate = DateTime.Now;
-                order.User = user;
-                order.UserId = request.UserId;
-
-                           
-                order.IsPaid = true;
-              
-              
-
-                _context.Orders.Add(order);
-                await _context.SaveChangesAsync();
-
-             
-
-                var infoUserOrder = new InfoUserOrder
-                {
-                    Email = request.Email,
-                    OrderId = order.OrderId,  // Sử dụng OrderId đã lưu
-                    FullName = request.FullName,
-                    PhoneNumber = request.PhoneNumber,
-                    Address = request.Address,
-                    City = request.City,
-                                        
-
+                    UserId = request.UserId,
+                    OrderDate = DateTime.Now,
+                    TotalPrice = cart.CartProducts.Sum(cp => cp.TotalPrice),
+                    Status = OrderStatus.Pending,
+                    IsPaid = false,
+                    OrderNote = request.OrderNote,
+                    Shipment = new Shipment { ShipmentMethod = request.ShipmentMethod },
+                    InfoUserOrder = new InfoUserOrder
+                    {
+                        FullName = request.FullName,
+                        Email = request.Email,
+                        PhoneNumber = request.PhoneNumber,
+                        Address = request.Address,
+                        City = request.City
+                    },
+                    OrderDetails = cart.CartProducts.Select(cp => new OrderDetail
+                    {
+                        ProductName = cp.Product.Name,
+                        Quantity = cp.Quantity,
+                        TotalPrice = cp.TotalPrice
+                    }).ToList()
                 };
 
+                // Lưu đơn hàng vào cơ sở dữ liệu
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync(); // Lưu order và có OrderId tự động sinh ra
 
-                _context.InfoUserOrders.Add(infoUserOrder);
+                // Tạo thông tin thanh toán
+                var payment = new Payment
+                {
+                    Amount = cart.CartProducts.Sum(cp => cp.TotalPrice),
+                    Method = "VNPay",  // Phương thức thanh toán VNPay
+                    PaymentDate = DateTime.Now,
+                    IsSuccessful = false,  // Ban đầu trạng thái thanh toán là chưa thành công
+                    VnpReturnUrl = vnpReturnUrl ?? "default-url-here",
+                    OrderId = order.OrderId  // Liên kết với đơn hàng
+                };
+
+                // Lưu thông tin thanh toán vào cơ sở dữ liệu
+                _context.Payments.Add(payment);
                 await _context.SaveChangesAsync();
 
+                // Xóa giỏ hàng sau khi đã tạo đơn hàng
+                _context.CartProducts.RemoveRange(cart.CartProducts);
+                await _context.SaveChangesAsync();
 
-                var response = _mapper.Map<OrderResponse>(order);
-                response.IsSuccess = true;
-                response.Message = "Đơn hàng được tạo thành công.";
-                
+                string paymentUrl = string.Empty;
 
-                return response;
-
+             
+                return new OrderResponse
+                {
+                    IsSuccess = true,
+                    Message = "Đơn hàng đã được tạo thành công.",
+                    OrderDetails = order.OrderDetails,
+                    PaymentUrl = paymentUrl // Trả về URL thanh toán cho người dùng
+                };
             }
-
-
-
-
-
             catch (Exception ex)
             {
-                throw new Exception($"{ex.Message}", ex);
+                return new OrderResponse
+                {
+                    IsSuccess = false,
+                    Message = $"Đã xảy ra lỗi khi tạo đơn hàng: {ex.Message}"
+                };
             }
         }
+    
     }
 }
+
         
 
   

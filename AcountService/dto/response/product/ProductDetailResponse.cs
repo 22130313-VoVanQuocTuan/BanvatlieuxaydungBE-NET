@@ -23,5 +23,6 @@ namespace AcountService.dto.response.product
 
 
         public int StockQuantity { get; set; }
+        public decimal? DiscountPercentage { get; set; } 
     }
 }

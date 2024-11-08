@@ -19,7 +19,7 @@ namespace AcountService.Controllers
 
         //Lấy thông tin hóa đơn
         [HttpPost]
-        [Authorize]
+ 
         public async Task<IActionResult> GetOrderInfo([FromBody] OrderRequest request)
         {
             try

@@ -1,6 +1,7 @@
 ﻿using AcountService.AppException;
 using AcountService.dto.request.Category;
 using AcountService.service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +20,7 @@ namespace AcountService.Controllers
 
         // Thêm danh mục
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> AddCategoryAsync([FromBody] CreateCategoryRequest request)
         {
             try
@@ -38,6 +40,7 @@ namespace AcountService.Controllers
 
         // Xóa danh mục
         [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> DeleteCategoryAsync(int id)
         {
             try
@@ -57,6 +60,7 @@ namespace AcountService.Controllers
 
         // Cập nhật danh mục
         [HttpPut("{categoryId}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> UpdateCategoryAsync(int categoryId, [FromBody] UpdateCategoryRequest request)
         {
             try

@@ -9,9 +9,9 @@ namespace AcountService.dto.response.Cart
         public string Name { get; set; }
         public string Description { get; set; }
         public string UrlImage { get; set; }
-        public double Price { get; set; }  // Giá từng sản phẩm
+        public decimal Price { get; set; }  // Giá từng sản phẩm
         public int Quantity { get; set; }  // Số lượng trong giỏ
-        public double TotalPrice { get; set; }  // Tổng giá = Giá * Số lượng
+        public decimal TotalPrice { get; set; }  // Tổng giá = Giá * Số lượng
 
 
 

@@ -258,12 +258,31 @@ namespace AcountService.service
                     .ToListAsync();
 
 
+                var response = new List<ProductDetailResponse>();
+                foreach (var product in products)
+                {
+                    // Kiểm tra nếu sản phẩm có khuyến mãi
+                    var promotional = await _context.PromotionalProducts
+                        .FirstOrDefaultAsync(p => p.ProductId == product.ProductId);
+                                                 
 
-                var response = _productMaper.Map<List<ProductDetailResponse>>(products);
+                    // Ánh xạ sản phẩm sang ProductDetailResponse
+                    var productResponse = _productMaper.Map<ProductDetailResponse>(product);
 
+                    // Nếu có khuyến mãi, thêm DiscountPercentage vào ProductDetailResponse
+                    if (promotional != null)
+                    {
+                        productResponse.DiscountPercentage = promotional.DiscountPercentage;
+                    }
 
+                    // Thêm sản phẩm đã ánh xạ vào danh sách phản hồi
+                    response.Add(productResponse);
+                }
                 return response;
-            }
+
+                }
+            
+
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);

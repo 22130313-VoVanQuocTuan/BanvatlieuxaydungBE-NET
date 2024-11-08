@@ -10,7 +10,7 @@ namespace AcountService.entity
         public int OrderId { get; set; }
 
         public DateTime OrderDate { get; set; }
-        public double TotalPrice { get; set; }
+        public decimal TotalPrice { get; set; }
 
         public OrderStatus Status { get; set; } = OrderStatus.Pending; // Default status
         public bool IsPaid { get; set; } = false; // Payment status

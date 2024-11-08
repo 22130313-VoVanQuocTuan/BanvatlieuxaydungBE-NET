@@ -22,7 +22,7 @@ namespace AcountService.entity
      
 
 
-        public ICollection<InfoUserOrder> InfoUserOrder { get; set; } = new List<InfoUserOrder>();
+    
 
         
 

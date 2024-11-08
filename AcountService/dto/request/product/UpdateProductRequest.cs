@@ -11,7 +11,7 @@ namespace AcountService.dto.request.product
         public string Description { get; set; }
 
         [Range(0.01, double.MaxValue, ErrorMessage = "Giá sản phẩm phải lớn hơn 0.")]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
 
         [Required(ErrorMessage = "Vui lòng chọn một hình ảnh.")]
         public IFormFile? UrlImage { get; set; } // Sử dụng IFormFile để nhận tệp hình ảnh từ người dùng

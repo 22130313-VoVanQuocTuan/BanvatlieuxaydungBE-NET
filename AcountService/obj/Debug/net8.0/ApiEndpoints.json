@@ -252,7 +252,7 @@
       },
       {
         "Name": "Price",
-        "Type": "System.Double",
+        "Type": "System.Decimal",
         "IsRequired": false
       },
       {
@@ -351,7 +351,7 @@
       },
       {
         "Name": "Price",
-        "Type": "System.Double",
+        "Type": "System.Decimal",
         "IsRequired": false
       },
       {
@@ -388,6 +388,85 @@
       {
         "Name": "id",
         "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "GetAllPromotional",
+    "RelativePath": "api/Promotional",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "CreatePromotional",
+    "RelativePath": "api/Promotional",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.Promotional.CreatePromotionalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "GetPromotional",
+    "RelativePath": "api/Promotional/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "UpdatePromotional",
+    "RelativePath": "api/Promotional/{saleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.Promotional.UpdatePromotionalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "DeletePromotional",
+    "RelativePath": "api/Promotional/{saleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

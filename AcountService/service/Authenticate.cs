@@ -3,6 +3,7 @@ using AcountService.dto.request.accountservice;
 using AcountService.dto.response.account;
 using AcountService.entity;
 using AcountService.Repository;
+using BanVatLieuXayDung.Migrations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
@@ -32,69 +33,60 @@ namespace AcountService.service
         }
 
         //Login và tạo token
-        public async Task<TokenResponse> loginUserAsync(UserLoginRequest userLoginRequest)
+        public async Task<TokenResponse> LoginAsync(UserLoginRequest request)
         {
-            try
+            // Kiểm tra thông tin đăng nhập
+            var user = await _userManager.FindByNameAsync(request.UserName);
+            if (user == null || !await _userManager.CheckPasswordAsync(user, request.Password))
             {
-                // Tìm kiếm người dùng theo UserName
-                var user = await _userManager.FindByNameAsync(userLoginRequest.UserName);
-                if (user == null)
-                {
-                    throw new CustomException("Tên tài khoản không chính xác", 404);
-                }
-
-                var role = await _userManager.GetRolesAsync(user);
-                if (role.Contains("USER") && !user.EmailConfirmed)
-                {
-                    throw new CustomException("Chưa xác thực tài khoản", 401);
-                }
-
-                // Kiểm tra mật khẩu bằng cách sử dụng UserManager
-                var isPasswordValid = await _userManager.CheckPasswordAsync(user, userLoginRequest.Password);
-                if (!isPasswordValid)
-                {
-                    throw new CustomException("Mật khẩu không chính xác", 401);
-                }
-
-                // Gọi phương thức GenerateJwtToken để tạo access token
-                var tokenString = GenerateJwtToken(user);
-
-                // Tạo refresh token (bạn có thể thay đổi cách tạo token này theo yêu cầu của bạn)
-                var refreshToken = GenerateRefreshToken(); // Gọi phương thức để tạo refresh token
-                var refreshTokenExpiry = DateTime.UtcNow.AddDays(2); // Đặt thời gian hết hạn cho refresh token (30 ngày hoặc tùy chọn của bạn)
-
-
-
-                // Trả về đối tượng 
-                return new TokenResponse
-                {
-                    Token = await tokenString,
-                    RefreshToken = refreshToken, // Trả về refresh token
-                    authenticated = true
-                }; // Trả về token cho client
+                throw new CustomException("Tên đăng nhập hoặc mật khẩu không chính xác", 401);
             }
-            catch (CustomException ex)
+
+            // Tìm refresh token cũ trong cơ sở dữ liệu
+            var oldRefreshToken = await _context.RefreshTokens.FirstOrDefaultAsync(t => t.UserId == user.Id);
+
+            // Nếu có refresh token cũ và nó chưa hết hạn, xóa nó
+            if (oldRefreshToken != null)
             {
-                // Thay vì ném ra CustomException mới, trả về thông tin của ex
-                throw new CustomException(ex.CustomMessage, ex.ErrorCode);
+                _context.RefreshTokens.Remove(oldRefreshToken);
+                await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
+
+            // Tạo token mới
+            var newToken = await GenerateJwtToken(user);
+
+            // Tạo refresh token mới
+            var newRefreshToken = await GenerateRefreshTokenAsync();
+
+            // Lưu refresh token mới vào cơ sở dữ liệu
+            var storedNewRefreshToken = new RefreshTokens
             {
-                // Xử lý các ngoại lệ không xác định (có thể ghi log nếu cần)
-                throw new CustomException("Đã xảy ra lỗi không xác định", 500); // Internal Server Error
-            }
+                Token = newRefreshToken,
+                ExpiryDate = DateTime.UtcNow.AddDays(2),
+                UserId = user.Id
+            };
+            await _context.RefreshTokens.AddAsync(storedNewRefreshToken);
+            await _context.SaveChangesAsync();
+
+            return new TokenResponse
+            {
+                Token = newToken,
+                RefreshToken = newRefreshToken,
+                RefreshTokenExpiry = DateTime.UtcNow.AddDays(2),
+                authenticated = true
+            };
         }
 
 
         // Refresh toke khi hết hạn
-        private string GenerateRefreshToken()
+        private async Task<string> GenerateRefreshTokenAsync()
         {
             var randomNumber = new byte[32];
             using (var rng = RandomNumberGenerator.Create())
             {
                 rng.GetBytes(randomNumber);
-                return Convert.ToBase64String(randomNumber);
             }
+            return Convert.ToBase64String(randomNumber);
         }
 
         //logout 
@@ -139,55 +131,59 @@ namespace AcountService.service
         {
             try
             {
-                var refreshToken = request.Token; // Gán token request vào refreshToken
+                var refreshToken = request.Token;
 
-                var storedRefreshToken = await _context.RefreshTokens.FirstOrDefaultAsync(t => t.Token == refreshToken); // Kiểm tra trong database
+                // Tìm refresh token cũ trong cơ sở dữ liệu
+                var storedRefreshToken = await _context.RefreshTokens.FirstOrDefaultAsync(t => t.Token == refreshToken);
 
                 if (storedRefreshToken == null || storedRefreshToken.ExpiryDate <= DateTime.UtcNow)
                 {
-                    throw new CustomException("Refresh token không hợp lệ hoặc đã hết hạn.", 403); // Forbidden
+                    throw new CustomException("Refresh token không hợp lệ hoặc đã hết hạn.", 403);
                 }
 
-                // Tìm người dùng từ refresh token (bạn có thể cần lưu thông tin người dùng kèm theo refresh token)
-                var user = await _userManager.FindByIdAsync(storedRefreshToken.UserId); // Lấy UserId từ storedRefreshToken
-
+                var user = await _userManager.FindByIdAsync(storedRefreshToken.UserId);
                 if (user == null)
                 {
-                    throw new CustomException("Tài khoản không tồn tại", 404); // Not Found
+                    throw new CustomException("Tài khoản không tồn tại", 404);
                 }
 
-                // Tạo JWT mới cho người dùng
-                var newToken = await GenerateJwtToken(user); // Đảm bảo rằng phương thức này trả về Task<string>
+                // Tạo token mới
+                var newToken = await GenerateJwtToken(user);
 
-               // Cập nhật refresh token mới
-                  var newRefreshToken = GenerateRefreshToken();
-                  var newRefreshTokenExpiry = DateTime.UtcNow.AddDays(2); // Cập nhật thời gian hết hạn
+                // Tạo refresh token mới
+                var newRefreshToken = await GenerateRefreshTokenAsync();
 
+                // Xóa refresh token cũ khỏi cơ sở dữ liệu
+                _context.RefreshTokens.Remove(storedRefreshToken);
 
-                // Lưu refresh token mới vào database (bạn cần có bảng để lưu refresh tokens)
-                storedRefreshToken.Token = newRefreshToken;
-                storedRefreshToken.ExpiryDate = newRefreshTokenExpiry;
-                // Trả về response chứa token và trạng thái authenticated
+                // Thêm refresh token mới vào cơ sở dữ liệu
+                var storedNewRefreshToken = new RefreshTokens
+                {
+                    Token = newRefreshToken,
+                    ExpiryDate = DateTime.UtcNow.AddDays(2),
+                    UserId = user.Id // Ghi lại UserId của người dùng liên quan
+                };
+                await _context.RefreshTokens.AddAsync(storedNewRefreshToken);
+
+                await _context.SaveChangesAsync();
+
                 return new TokenResponse
                 {
                     Token = newToken,
-                    RefreshToken = newRefreshToken, // Trả về refresh token mới
-                    RefreshTokenExpiry = newRefreshTokenExpiry, // Trả về thời gian hết hạn của refresh token
+                    RefreshToken = newRefreshToken,
+                    RefreshTokenExpiry = DateTime.UtcNow.AddDays(2),
                     authenticated = true
                 };
             }
             catch (CustomException ex)
             {
-                // Ném lại CustomException với thông điệp và mã lỗi gốc
                 throw new CustomException(ex.CustomMessage, ex.ErrorCode);
             }
             catch (Exception ex)
             {
-                // Xử lý các ngoại lệ không xác định (có thể ghi log nếu cần)
-                throw new CustomException($"Lỗi khi làm mới token: {ex.Message}", 500); // Internal Server Error
+                throw new CustomException($"Lỗi khi làm mới token: {ex.Message}", 500);
             }
         }
-
         // Tạo Token
         public async Task<string> GenerateJwtToken(User user)
         {

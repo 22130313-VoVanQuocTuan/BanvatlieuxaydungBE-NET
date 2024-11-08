@@ -31,6 +31,7 @@ namespace AcountService.Repository
 
         public DbSet<InfoUserOrder> InfoUserOrders { get; set; }
         public DbSet<Discount> Discount { get; set; }
+        public DbSet<PromotionalProducts> PromotionalProducts { get; set; }
 
 
 
@@ -100,6 +101,8 @@ namespace AcountService.Repository
              .WithOne(p => p.InfoUserOrder)
              .HasForeignKey<InfoUserOrder>(cp => cp.OrderId);
 
+          
+
             modelBuilder.Entity<OrderDetail>()
             .HasOne(cp => cp.Order)
             .WithMany(p => p.OrderDetails)
@@ -107,14 +110,47 @@ namespace AcountService.Repository
 
 
             modelBuilder.Entity<EmailVerificationCode>()
-       .HasOne(cp => cp.User)
-       .WithOne(p => p.EmailVerificationCode)
-       .HasForeignKey<EmailVerificationCode>(cp => cp.UserId);
+           .HasOne(cp => cp.User)
+           .WithOne(p => p.EmailVerificationCode)
+           .HasForeignKey<EmailVerificationCode>(cp => cp.UserId);
 
+            modelBuilder.Entity<PromotionalProducts>()
+            .HasOne(cp => cp.Product)
+            .WithMany(p => p.PromotionalProducts)
+            .HasForeignKey(cp => cp.ProductId);
 
+            modelBuilder.Entity<PromotionalProducts>()
+       .Property(p => p.DiscountPercentage)
+       .HasPrecision(5, 2); // 5 chữ số tổng cộng, 2 chữ số thập phân
 
+            // chuyển về dạng decimal
+            modelBuilder.Entity<CartProduct>()
+      .Property(p => p.Price)
+      .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<CartProduct>()
+                .Property(p => p.TotalPrice)
+                .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<Discount>()
+                .Property(p => p.Percent)
+                .HasColumnType("decimal(5,2)");
+
+            modelBuilder.Entity<Order>()
+                .Property(p => p.TotalPrice)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<OrderDetail>()
+                .Property(p => p.TotalPrice)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Payment>()
+                .Property(p => p.Amount)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Product>()
+                .Property(p => p.Price)
+                .HasColumnType("decimal(18,2)");
 
 
 

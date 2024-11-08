@@ -11,7 +11,8 @@ namespace AcountService.dto.request.Order
         public string Address { get; set; }
         public string City { get; set; }
         
-        public double TotalPrice { get; set; }
+      
+        public decimal TotalPrice { get; set; }
         public string PaymentMethod { get; set; }
         public string ShipmentMethod { get; set; }
       

@@ -38,6 +38,7 @@ namespace AcountService.Controllers
 
 
         [HttpGet("{code}")]
+        [Authorize]
          public async Task<IActionResult> ConfrimCode(string code)
         {
             try

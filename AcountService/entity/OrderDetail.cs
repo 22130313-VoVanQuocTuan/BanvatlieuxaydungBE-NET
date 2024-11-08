@@ -11,7 +11,7 @@ namespace AcountService.entity
 
         public string ProductName { get; set; }
         public int Quantity { get; set; }
-        public double TotalPrice { get; set; }
+        public decimal TotalPrice { get; set; }
    
 
     }

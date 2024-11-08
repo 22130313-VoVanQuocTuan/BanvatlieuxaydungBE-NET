@@ -4,6 +4,8 @@ using AcountService.entity;
 using AcountService.mapper;
 using AcountService.Repository;
 using AcountService.service;
+using BanVatLieuXayDung.entity;
+using BanVatLieuXayDung.service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -28,6 +30,7 @@ builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<CartService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<DiscountService>();
+builder.Services.AddScoped<PromotionalService>();
 
 
 // Cấu hình DbContext

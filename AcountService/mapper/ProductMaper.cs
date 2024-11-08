@@ -10,7 +10,8 @@ namespace AcountService.mapper
         public ProductMaper() {
             CreateMap<CreateProductRequest, Product>();
             CreateMap<Product, ProductDetailResponse>()
-              .ForMember(dest => dest.UrlImage, opt => opt.MapFrom(src => src.UrlImage)); // Ánh xạ UrlImage từ Product
+              .ForMember(dest => dest.UrlImage, opt => opt.MapFrom(src => src.UrlImage))// Ánh xạ UrlImage từ Product
+             .ForMember(dest => dest.DiscountPercentage, opt => opt.MapFrom(src => 0));
         }
     }
 }

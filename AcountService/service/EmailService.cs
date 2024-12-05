@@ -7,6 +7,16 @@ using AcountService.Repository;
 using AcountService.dto.response;
 using AutoMapper;
 using AcountService.dto.request.email;
+using BanVatLieuXayDung.entity;
+using Microsoft.AspNetCore.Identity.Data;
+using BanVatLieuXayDung.dto.request.email;
+using ForgotPasswordRequest = BanVatLieuXayDung.dto.request.email.ForgotPasswordRequest;
+using Microsoft.AspNetCore.Mvc;
+using ResetPasswordRequest = BanVatLieuXayDung.dto.request.email.ResetPasswordRequest;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using NuGet.Common;
+using AcountService.dto.request.accountservice;
+using System.Web;
 
 namespace AcountService.service
 {
@@ -25,7 +35,7 @@ namespace AcountService.service
             _mapper = mapper;
         }
 
-        public void SendEmailAsync(string toEmail, string subject, string body)
+        public async Task SendEmailAsync(string toEmail, string subject, string body)
         {
             var smtpSettings = _configuration.GetSection("SmtpSettings");
 
@@ -50,7 +60,7 @@ namespace AcountService.service
 
 
         //ConfirmEmailAsync
-        public async Task<string> ConfirmEmailAsync( EmailConfrimRequest request)
+        public async Task<string> ConfirmEmailAsync(EmailConfrimRequest request)
         {
             try
             {
@@ -88,13 +98,13 @@ namespace AcountService.service
                 // Thiết lập EmailConfirmed  là true khi xác thực thành công
                 user.EmailConfirmed = true;
                 await _context.SaveChangesAsync();
-                
+
                 _context.EmailVerificationCodes.Remove(verificationCode);
                 // Tìm người dùng chưa được xác thực
-               
+
 
                 return "Xác thực thành công";
-               }
+            }
             catch (Exception ex)
             {
                 // Ghi log lỗi nếu cần thiết và trả về thông báo lỗi
@@ -102,7 +112,7 @@ namespace AcountService.service
 
 
             }
-        
+
 
         }
 
@@ -116,7 +126,7 @@ namespace AcountService.service
             // Tạo đối tượng EmailVerificationCode
             var emailVerificationCode = new EmailVerificationCode
             {
-                
+
                 Email = email,
                 UserId = id,
                 VerificationCode = verificationCode,
@@ -130,5 +140,102 @@ namespace AcountService.service
 
             return emailVerificationCode;
         }
+
+
+        // Phương thức gửi email chứa liên kết đặt lại mật khẩu
+        public async Task SendPasswordResetEmailAsync(ForgotPasswordRequest request)
+        {
+            // Kiểm tra xem email có tồn tại trong cơ sở dữ liệu không
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
+            if (user == null)
+            {
+                // Thay vì ném exception, có thể trả về thông báo lỗi rõ ràng
+                // Tránh tiết lộ thông tin người dùng
+                return;
+            }
+
+            // Kiểm tra xem đã có token reset cho user này chưa
+            var passwordReset = await _context.password_Resets.FirstOrDefaultAsync(e => e.UserId == user.Id);
+
+            // Tạo token reset mật khẩu
+            var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            if (passwordReset == null)
+            {
+                // Nếu chưa có token, tạo mới
+                var newPasswordReset = new Password_reset
+                {
+                    ResetToken = resetToken,
+                    TokenExpiry = DateTime.UtcNow.AddHours(1), // Token có hiệu lực trong 1 giờ
+                    UserId = user.Id
+                };
+
+                _context.password_Resets.Add(newPasswordReset);
+                await _context.SaveChangesAsync(); // Lưu thông tin token vào cơ sở dữ liệu
+            }
+            else
+            {
+                // Nếu đã có token, cập nhật lại token và thời gian hết hạn
+                passwordReset.ResetToken = resetToken;
+                passwordReset.TokenExpiry = DateTime.UtcNow.AddHours(1); // Cập nhật token và thời gian hết hạn
+
+                await _context.SaveChangesAsync(); // Lưu thông tin token vào cơ sở dữ liệu
+            }
+
+            // Tạo liên kết đặt lại mật khẩu
+            var resetLink = $"{_configuration["AppUrl"]}/reset-password.html?token={HttpUtility.UrlEncode(passwordReset?.ResetToken)}";
+            var subject = "Yêu cầu đặt lại mật khẩu";
+            var body = $"Nhấn vào <a href='{resetLink}'>đây</a> để đặt lại mật khẩu.";
+
+            // Gửi email cho người dùng
+            await SendEmailAsync(request.Email, subject, body);
+        }
+
+        //Thay đổi lại mật khẩu
+        // Thay đổi lại mật khẩu
+        public async Task<string> ResetPasswordAsync(ResetPasswordRequest request)
+        {
+            try
+            {
+                // Kiểm tra xem mật khẩu mới và xác nhận mật khẩu có khớp không
+                if (request.NewPassword != request.ConfirmNewPassword)
+                {
+                    throw new Exception("Mật khẩu mới và xác nhận mật khẩu không khớp.");
+                }
+
+                // Tìm token trong cơ sở dữ liệu
+                var passwordReset = await _context.password_Resets.FirstOrDefaultAsync(pr => pr.ResetToken == request.Token);
+
+                if (passwordReset == null || passwordReset.TokenExpiry < DateTime.UtcNow)
+                {
+                    throw new Exception("Token không hợp lệ hoặc đã hết hạn.");
+                }
+
+                // Tìm người dùng liên quan đến token
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == passwordReset.UserId);
+                if (user == null)
+                {
+                    throw new Exception("Người dùng không tồn tại.");
+                }
+
+                // Mã hóa mật khẩu mới
+                var passwordHasher = new PasswordHasher<User>();
+                user.PasswordHash = passwordHasher.HashPassword(user, request.NewPassword);
+
+                // Cập nhật người dùng và xóa token
+                _context.Users.Update(user);
+                _context.password_Resets.Remove(passwordReset);
+
+                // Lưu các thay đổi vào cơ sở dữ liệu
+                await _context.SaveChangesAsync();
+
+                return "Thay đổi mật khẩu thành công.";
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
     }
 }

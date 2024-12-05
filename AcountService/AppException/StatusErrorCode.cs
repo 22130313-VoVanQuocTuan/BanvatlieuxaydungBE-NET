@@ -17,29 +17,34 @@ namespace AcountService.AppException
 
             if (httpContext.Response.StatusCode == StatusCodes.Status401Unauthorized)
             {
+                // Kiểm tra xem phản hồi đã bắt đầu chưa
+                if (!httpContext.Response.HasStarted)
+                {
+                    // Thay đổi header Content-Type chỉ khi phản hồi chưa bắt đầu
+                    httpContext.Response.ContentType = "application/json";
 
-                httpContext.Response.ContentType = "application/json";
-                await httpContext.Response.WriteAsync(JsonConvert.SerializeObject(
-                    new
-                    {
-                        status = 401,
-                        message = "Không có quyền truy cập"
-                    }
+                    // Viết dữ liệu JSON vào phản hồi
+                    await httpContext.Response.WriteAsync(JsonConvert.SerializeObject(
+                        new
+                        {
+                            status = 401,
+                            message = "Không có quyền truy cập"
+                        }
                     ));
+                }
+                if (httpContext.Response.StatusCode == StatusCodes.Status403Forbidden)
+                {
 
-            }
-            if (httpContext.Response.StatusCode == StatusCodes.Status403Forbidden)
-            {
+                    httpContext.Response.ContentType = "application/json";
+                    await httpContext.Response.WriteAsync(JsonConvert.SerializeObject(
+                        new
+                        {
+                            status = 401,
+                            message = "Không có quyền truy cập"
+                        }
+                        ));
 
-                httpContext.Response.ContentType = "application/json";
-                await httpContext.Response.WriteAsync(JsonConvert.SerializeObject(
-                    new
-                    {
-                        status = 403,
-                        message = "Không có quyền truy cập"
-                    }
-                    ));
-
+                }
             }
         }
     }

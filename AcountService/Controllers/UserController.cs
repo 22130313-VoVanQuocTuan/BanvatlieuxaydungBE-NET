@@ -47,7 +47,7 @@ namespace AcountService.Controllers
             try
             {
                 var result = await _userService.getAllUserAsync();
-                return Ok(new { status = 200, users = result });
+                return Ok(new { status = 200,  result });
             }
             catch (Exception ex)
             {
@@ -95,6 +95,22 @@ namespace AcountService.Controllers
             try
             {
                 var result = await _userService.DeleteUserAsync(id);
+                return Ok(new { status = 200, message = result });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { status = 500, message = ex.Message });
+            }
+        }
+
+        // Số người dùng
+        [HttpGet("number")]
+     
+        public async Task<IActionResult> getNumberUser()
+        {
+            try
+            {
+                var result = await _userService.GetTotalUserRateRevenueAsync();
                 return Ok(new { status = 200, message = result });
             }
             catch (Exception ex)

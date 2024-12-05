@@ -21,8 +21,10 @@ namespace AcountService.Controllers
         // API tạo mã giảm giá
 
         [HttpPost]
-        [Authorize(Policy ="AdminOnly")]
+        [Authorize(Policy = "AdminOnly")]
 
+
+        //Tạo mã giảm giá
         public async Task<IActionResult> CreateDiscount([FromBody] DiscountResquest resquest)
         {
             try
@@ -32,17 +34,50 @@ namespace AcountService.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { status = 300, ex.Message });
             }
         }
 
 
-        [HttpGet("{code}")]
-         public async Task<IActionResult> ConfrimCode(string code)
+        //Xác nhận mã giảm giá
+        [HttpGet("{code}/{UserId}")]
+        [Authorize(Policy = "UserOnly")]
+        public async Task<IActionResult> ConfrimCode(string code, string UserId)
         {
             try
             {
-                var response = await _discountService.ConfrimCode(code);
+                var response = await _discountService.ConfrimCode(code, UserId);
+                return Ok(new { status = 200, response });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        //Lấy danh sách mã giảm giá
+        [HttpGet]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> getAllDiscountAsync()
+        {
+            try
+            {
+                var response = await _discountService.getDiscountAsync();
+                return Ok(new { status = 200, response });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        //Xóa mã giảm giá
+        [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> DeleteDiscountAsync(int id)
+        {
+            try
+            {
+                var response = await _discountService.DeleteDiscountAsync(id);
                 return Ok(new { status = 200, response });
             }
             catch (Exception ex)

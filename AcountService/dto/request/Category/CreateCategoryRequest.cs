@@ -10,7 +10,6 @@ namespace AcountService.dto.request.Category
         
         public string name {  get; set; }
 
-        [Required]
-        public string description { get; set; }
+   
     }
 }

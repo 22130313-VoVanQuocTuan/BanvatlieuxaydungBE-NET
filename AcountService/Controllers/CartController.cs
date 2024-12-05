@@ -22,7 +22,7 @@ namespace AcountService.Controllers
 
         // Thêm sản phẩm vào giỏ hàng
         [HttpPost]
-        [Authorize]
+        [Authorize(Policy = "UserOnly")]
         public async Task<IActionResult> AddProductAsync([FromBody] AddProductToCartRequest request)
         {
             try
@@ -42,7 +42,7 @@ namespace AcountService.Controllers
 
         // Xóa sản phẩm trong giỏ hàng
         [HttpDelete("{CartProductId}")]
-        [Authorize]
+        [Authorize(Policy = "UserOnly")]
         public async Task<IActionResult> DeleteProductInCart(int CartProductId)
         {
             try
@@ -62,7 +62,7 @@ namespace AcountService.Controllers
 
         // Cập nhật số lượng sản phẩm trong giỏ hàng
         [HttpPut]
-        [Authorize]
+        [Authorize(Policy = "UserOnly")]
         public async Task<IActionResult> UpdateQuantityInCart([FromBody] UpdateQuantityInCartRequest request)
         {
             try
@@ -82,13 +82,34 @@ namespace AcountService.Controllers
 
         // Lấy danh sách sản phẩm trong giỏ hàng
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = "UserOnly")]
         public async Task<IActionResult> GetListProductAsync()
         {
             try
             {
                 var user = HttpContext.User;
                 var results = await _cartService.GetListProductAsync(user);
+                return Ok(new { status = 200, results });
+            }
+            catch (CustomException ex)
+            {
+                return BadRequest(new { status = ex.ErrorCode, message = ex.CustomMessage });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { status = 500, message = "Đã xảy ra lỗi không xác định", errorMessage = ex.Message });
+            }
+        }
+
+        // Lấy TỔNG TIỀN TRONG GIỎ
+        [HttpGet ("{userId}")]
+      //  [Authorize(Policy = "UserOnly")]
+        public async Task<IActionResult> GetCartSummaryAsync(string userId)
+        {
+            try
+            {
+                var user = HttpContext.User;
+                var results = await _cartService.GetCartSummaryAsync(userId);
                 return Ok(new { status = 200, results });
             }
             catch (CustomException ex)

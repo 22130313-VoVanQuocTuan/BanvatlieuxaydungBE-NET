@@ -4,8 +4,10 @@ using AcountService.dto.response.product;
 using AcountService.entity;
 using AcountService.Repository;
 using AutoMapper;
+using BanVatLieuXayDung.dto.response.account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 
 namespace AcountService.service
 {
@@ -27,7 +29,7 @@ namespace AcountService.service
        
         }
 
-
+        //TẠO TÀI KHOẢN
         public async Task<UserResponse> CreateUserAsync(UserCreateRequest userCreateRequest)
         {
             try
@@ -98,7 +100,7 @@ namespace AcountService.service
 
         
 
-
+        //XÓA NGƯỜI DÙNG
             public async Task<string> DeleteUserAsync(string id)
         {
             try
@@ -128,6 +130,7 @@ namespace AcountService.service
             }
         }
 
+        //LẤY DANH SÁCH TÀI KHOẢN
         public async Task<List<UserResponse>> getAllUserAsync()
         {
             try
@@ -144,6 +147,7 @@ namespace AcountService.service
                 throw new Exception(ex.Message);
             }
         }
+        // LẤY RA TÀI KHOẢN
         public async Task<UserResponse> getUserAsync(string id)
         {
             try
@@ -162,6 +166,7 @@ namespace AcountService.service
             }
 
         }
+        // CẬP NHẬT TÀI KHOẢN
         public async Task<UserResponse> UpdateUserAsync(string id, UserUpdateRequest request)
         {
             try
@@ -172,18 +177,14 @@ namespace AcountService.service
                     throw new Exception("Tài khoản không tồn tại");
                 }
 
-                var username = await _userManager.FindByNameAsync(request.UserName);
-                if (username != null && username.Id != id)
-                {
-                    throw new Exception("Tên tài khoản đã tồn tại");
-                }
-
+  
                 // Cập nhật các thuộc tính của thực thể đã được truy vấn
-                user.UserName = request.UserName;
-                user.PasswordHash = request.Password;
                 user.Email = request.Email;
-                user.Dob = request.Dob;
-                user.City = request.City;
+                user.PhoneNumber = request.PhoneNumber;
+                user.Address = request.Address;
+                user.FullName = request.FullName;
+               
+               
                
                 // Cập nhật người dùng trong cơ sở dữ liệu
                 var result = await _userManager.UpdateAsync(user);
@@ -201,9 +202,31 @@ namespace AcountService.service
                 throw new Exception(ex.Message);
             }
 
-
+             
 
           
+        }
+        // TÍNH TỔNG TÀI KHOẢN, ĐÁNH GIÁ, DOANH THU
+        public async Task<TotalUserRateRevenueResponse> GetTotalUserRateRevenueAsync()
+        {
+            // Đếm tổng số khách hàng trong bảng User
+            var totalCustomers = await _context.Users.CountAsync();
+
+            // Đếm tổng số lượt xem (nếu là Review thì cần xác định đúng ý nghĩa)
+            var totalView = await _context.Reviews.CountAsync();
+
+            // Tính tổng doanh thu từ các hóa đơn đã thanh toán
+            var totalRevenue = await _context.Orders
+                .Where(o => o.payment_status == "đã thanh toán") // Điều kiện chỉ tính hóa đơn đã thanh toán
+                .SumAsync(o => o.TotalPrice);         // Tổng tiền dựa trên cột TotalPrice
+
+            // Trả về kết quả dưới dạng đối tượng response
+            return new TotalUserRateRevenueResponse
+            {
+                totalUser = totalCustomers,
+                Rate = totalView,
+                Revenue = totalRevenue
+            };
         }
 
     }

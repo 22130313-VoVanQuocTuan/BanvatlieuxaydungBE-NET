@@ -23,7 +23,7 @@ namespace AcountService.Controllers
         {
             try
             {
-                var result = await _authenticate.loginUserAsync(userLoginRequest);
+                var result = await _authenticate.LoginAsync(userLoginRequest);
                 return Ok(new { status = 200, result });
             }
             catch (CustomException ex)

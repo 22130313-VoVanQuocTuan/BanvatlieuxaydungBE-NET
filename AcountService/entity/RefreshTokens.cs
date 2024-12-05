@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BanVatLieuXayDung.entity
+namespace AcountService.entity
 {
     public class RefreshTokens
     {

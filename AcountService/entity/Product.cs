@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BanVatLieuXayDung.entity;
+using System.ComponentModel.DataAnnotations;
 
 namespace AcountService.entity
 {
@@ -9,7 +10,7 @@ namespace AcountService.entity
         public string Name { get; set; }
         public string Description { get; set; }
         public string UrlImage {  get; set; }
-        public double Price { get; set; }
+        public decimal Price { get; set; }
        
 
         public int StockQuantity { get; set; } // Số lượng có sẵn của sản phẩm
@@ -18,7 +19,7 @@ namespace AcountService.entity
 
         public DateTime UpdatedAt { get; set; } // Ngày cập nhật sản phẩm
 
-        public bool IsActive { get; set; } // Trạng thái hoạt động của sản phẩm
+        public string Status { get; set; } // Trạng thái hoạt động của sản phẩm
 
         // Quan hệ với Category
         public int CategoryId { get; set; } // Danh mục sản phẩm
@@ -30,6 +31,10 @@ namespace AcountService.entity
 
         public ICollection<CartProduct> CartProducts { get; set; } = new List<CartProduct>();
 
+
+        public ICollection<PromotionalProducts> PromotionalProducts { get; set; } = new List<PromotionalProducts>();
+
+      
 
 
 

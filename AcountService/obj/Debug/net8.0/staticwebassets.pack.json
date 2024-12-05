@@ -1,8 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximang1.png",
-      "PackagePath": "staticwebassets\\images\\ximang1.png"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da57.png",
+      "PackagePath": "staticwebassets\\images\\da57.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacat.png",
+      "PackagePath": "staticwebassets\\images\\dacat.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dache.png",
+      "PackagePath": "staticwebassets\\images\\dache.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacmthach.png",
+      "PackagePath": "staticwebassets\\images\\dacmthach.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dahoc.png",
+      "PackagePath": "staticwebassets\\images\\dahoc.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\may-loc-nuoc.jpg",
+      "PackagePath": "staticwebassets\\images\\may-loc-nuoc.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BanVatLieuXayDung.Microsoft.AspNetCore.StaticWebAssets.props",

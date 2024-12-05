@@ -9,7 +9,7 @@ namespace AcountService.entity
         [Key]
         public int CategotyId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        
         // Quan hệ với Product
        public ICollection<Product> Products { get; set; } = new List<Product>();
     }

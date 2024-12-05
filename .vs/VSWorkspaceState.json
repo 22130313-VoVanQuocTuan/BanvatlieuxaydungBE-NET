@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AcountService",
+    "\\AcountService\\Controllers",
+    "\\AcountService\\Migrations"
+  ],
+  "SelectedNode": "\\AcountService\\Migrations\\20241119050354_UpdateCart.Designer.cs",
+  "PreviewInSolutionExplorer": false
+}

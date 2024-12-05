@@ -8,11 +8,11 @@ namespace AcountService.dto.request.product
         [Required(ErrorMessage = "Tên sản phẩm không được để trống.")]
         public string Name { get; set; } = "";
 
-        [Required(ErrorMessage = "Mô tả sản phẩm không được để trống.")]
+    
         public string Description { get; set; }
 
         [Range(0.01, double.MaxValue, ErrorMessage = "Giá sản phẩm phải lớn hơn 0.")]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
 
         [Required(ErrorMessage = "Vui lòng chọn một hình ảnh.")]
         public IFormFile? UrlImage { get; set; } // Sử dụng IFormFile để nhận tệp hình ảnh từ người dùng
@@ -22,6 +22,8 @@ namespace AcountService.dto.request.product
 
         [Range(0, int.MaxValue, ErrorMessage = "Số lượng sản phẩm phải không âm.")]
         public int StockQuantity { get; set; }
+
+        public string Status { get; set; }
 
 
     }

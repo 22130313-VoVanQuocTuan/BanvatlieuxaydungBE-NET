@@ -58,7 +58,7 @@ namespace AcountService.service
                     throw new Exception("Danh mục ko tồn tại");
                 }
 
-                 _context.Categories.Remove(categoryName);
+                _context.Categories.Remove(categoryName);
                 await _context.SaveChangesAsync();
 
 
@@ -81,7 +81,7 @@ namespace AcountService.service
                 var categoryName = await _context.Categories.FirstOrDefaultAsync(c => c.CategotyId == CategotyId);
                 if (categoryName == null)
                 {
-                   return("Danh mục ko tồn tại");
+                    return ("Danh mục ko tồn tại");
                 }
                 if (categoryName.Equals(request.Name))
                 {
@@ -89,9 +89,9 @@ namespace AcountService.service
                 }
 
                 categoryName.Name = request.Name;
-                categoryName.Description = request.Description;
 
-                
+
+
                 await _context.SaveChangesAsync();
 
 
@@ -106,5 +106,25 @@ namespace AcountService.service
 
 
         }
+        // lấy ra danh sách danh mục
+        public async Task<List<CategoryResponse>> GetListCategoryAsync()
+        {
+            try
+            {
+                var categoryName = await _context.Categories.ToListAsync();
+
+
+                var respone = _mapper.Map<List<CategoryResponse>>(categoryName);
+
+                return respone;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+
+            }
+
+        }
     }
-}
+    }

@@ -6,8 +6,7 @@ namespace AcountService.entity
     {
         [Key]
         public int ReviewId { get; set; }
-        public int Rating { get; set; }
-        public string Comment { get; set; }
+       public string Comment { get; set; }
         public DateTime CreatedAt { get; set; }
 
         // Foreign keys

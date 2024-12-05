@@ -106,6 +106,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AcountService.Controllers.CartController",
+    "Method": "GetCartSummaryAsync",
+    "RelativePath": "api/Cart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AcountService.Controllers.CategoryController",
     "Method": "AddCategoryAsync",
     "RelativePath": "api/Category",
@@ -159,6 +175,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AcountService.Controllers.CategoryController",
+    "Method": "getAllListCategoryAsync",
+    "RelativePath": "api/Category/category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AcountService.Controllers.DiscountController",
     "Method": "CreateDiscount",
     "RelativePath": "api/Discount",
@@ -176,8 +202,18 @@
   },
   {
     "ContainingType": "AcountService.Controllers.DiscountController",
+    "Method": "getAllDiscountAsync",
+    "RelativePath": "api/Discount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.DiscountController",
     "Method": "ConfrimCode",
-    "RelativePath": "api/Discount/{code}",
+    "RelativePath": "api/Discount/{code}/{UserId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -186,14 +222,67 @@
         "Name": "code",
         "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AcountService.Controllers.OrderControler",
+    "ContainingType": "AcountService.Controllers.DiscountController",
+    "Method": "DeleteDiscountAsync",
+    "RelativePath": "api/Discount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.InfoOrderController",
+    "Method": "CreateInforOder",
+    "RelativePath": "api/InfoOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.UpdateInfoShippingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.InfoOrderController",
+    "Method": "GetAllInfoShipping",
+    "RelativePath": "api/InfoOrder/userId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
     "Method": "GetOrderInfo",
-    "RelativePath": "api/OrderControler",
+    "RelativePath": "api/Order",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -204,6 +293,63 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "deleteOrder",
+    "RelativePath": "api/Order/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "confirmOrder",
+    "RelativePath": "api/Order/{orderId}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "getOrderNew",
+    "RelativePath": "api/Order/order-new",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "getListUserOrder",
+    "RelativePath": "api/Order/top-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -252,7 +398,7 @@
       },
       {
         "Name": "Price",
-        "Type": "System.Double",
+        "Type": "System.Decimal",
         "IsRequired": false
       },
       {
@@ -268,6 +414,11 @@
       {
         "Name": "StockQuantity",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -333,6 +484,22 @@
   },
   {
     "ContainingType": "AcountService.Controllers.ProductController",
+    "Method": "getDescription",
+    "RelativePath": "api/Product/description/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.ProductController",
     "Method": "AddProductAsync",
     "RelativePath": "api/Product/product",
     "HttpMethod": "POST",
@@ -351,7 +518,7 @@
       },
       {
         "Name": "Price",
-        "Type": "System.Double",
+        "Type": "System.Decimal",
         "IsRequired": false
       },
       {
@@ -367,6 +534,27 @@
       {
         "Name": "StockQuantity",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.ProductController",
+    "Method": "SearchProducts",
+    "RelativePath": "api/Product/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -394,6 +582,127 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "GetAllPromotional",
+    "RelativePath": "api/Promotional",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "CreatePromotional",
+    "RelativePath": "api/Promotional",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.Promotional.CreatePromotionalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "GetPromotional",
+    "RelativePath": "api/Promotional/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "UpdatePromotional",
+    "RelativePath": "api/Promotional/{saleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.Promotional.UpdatePromotionalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PromotionalController",
+    "Method": "DeletePromotional",
+    "RelativePath": "api/Promotional/{saleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.ReviewController",
+    "Method": "CreateReview",
+    "RelativePath": "api/Review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.rating.ReviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.ReviewController",
+    "Method": "GetAllReview",
+    "RelativePath": "api/Review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.ReviewController",
+    "Method": "DeleteReview",
+    "RelativePath": "api/Review/{reviewId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AcountService.Controllers.SendEmailController",
     "Method": "ConfirmEmail",
     "RelativePath": "api/SendEmail/confirm-email",
@@ -404,6 +713,38 @@
       {
         "Name": "request",
         "Type": "AcountService.dto.request.email.EmailConfrimRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.SendEmailController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/SendEmail/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.email.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.SendEmailController",
+    "Method": "ResetPasswordAsync",
+    "RelativePath": "api/SendEmail/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.email.ResetPasswordRequest",
         "IsRequired": true
       }
     ],
@@ -480,12 +821,84 @@
   },
   {
     "ContainingType": "AcountService.Controllers.UserController",
+    "Method": "getNumberUser",
+    "RelativePath": "api/User/number",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.UserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/User/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PaymentController",
+    "Method": "Payment",
+    "RelativePath": "api/vnpay/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "infor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderinfor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanVatLieuXayDung.Controllers.PaymentController",
+    "Method": "PaymentConfirm",
+    "RelativePath": "api/vnpay/paymentconfirm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vnp_TxnRef",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_OrderInfo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_TransactionNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_ResponseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vnp_SecureHash",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

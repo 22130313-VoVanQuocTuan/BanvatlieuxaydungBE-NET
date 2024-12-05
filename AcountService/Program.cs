@@ -4,6 +4,8 @@ using AcountService.entity;
 using AcountService.mapper;
 using AcountService.Repository;
 using AcountService.service;
+using BanVatLieuXayDung.entity;
+using BanVatLieuXayDung.service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -28,8 +30,12 @@ builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<CartService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<DiscountService>();
+builder.Services.AddScoped<PromotionalService>();
+builder.Services.AddScoped<PaymentService>();
+builder.Services.AddScoped<InfoUserShippingService>();
+builder.Services.AddScoped<ReviewService>();
 
-
+builder.Services.AddHttpContextAccessor(); // Đăng ký IHttpContextAccessor
 // Cấu hình DbContext
 builder.Services.AddDbContext<DataContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -97,7 +103,7 @@ options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins",
-        builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+       builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
 
 

@@ -4,8 +4,10 @@ using AcountService.entity;
 using AcountService.mapper;
 using AcountService.Repository;
 using AutoMapper;
+using BanVatLieuXayDung.dto.response.product;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AcountService.service
 {
@@ -60,7 +62,7 @@ namespace AcountService.service
                 product.CategoryId = request.CategoryId;
                 product.CreatedAt = DateTime.Now; // Ghi lại thời gian tạo
                 product.UpdatedAt = DateTime.Now; // Ghi lại thời gian cập nhật
-                product.IsActive = true; // Mặc định là sản phẩm hoạt động
+                product.Status = request.Status; // Mặc định là sản phẩm hoạt động
 
 
                 await _context.AddAsync(product);
@@ -86,59 +88,68 @@ namespace AcountService.service
         {
             try
             {
-
-                // Tìm sản phẩm theo ID hoặc tên
-                var existingProduct = await _context.Products
-                    .FirstOrDefaultAsync(p => p.ProductId == id);
+                // Tìm sản phẩm theo ID
+                var existingProduct = await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
 
                 if (existingProduct == null)
                 {
                     throw new Exception("Sản phẩm không tồn tại.");
                 }
 
-                var productName = await _context.Products.FirstOrDefaultAsync(p => p.Name.ToLower() == request.Name.ToLower());
-                if (productName != null)
+             
+
+                // Cập nhật các trường nếu có thay đổi
+                if ( request.Name != existingProduct.Name)
                 {
-                    throw new Exception("Sản phẩm đã tồn tại");
+                    existingProduct.Name = request.Name;
+                }
+                if (request.CategoryId != existingProduct.CategoryId)
+                {
+                    existingProduct.CategoryId = request.CategoryId;
+                }
+                if ( request.Description != existingProduct.Description)
+                {
+                    existingProduct.Description = request.Description;
+                }
+                if ( request.Price != existingProduct.Price)
+                {
+                    existingProduct.Price = request.Price;
+                }
+                if (request.StockQuantity != existingProduct.StockQuantity)
+                {
+                    existingProduct.StockQuantity = request.StockQuantity;
+                }
+                if (request.Status != existingProduct.Status)
+                {
+                    existingProduct.Status = request.Status;
                 }
 
-
-
-                // Cập nhật thông tin sản phẩm
-                existingProduct.Name = request.Name;
-                existingProduct.CategoryId = request.CategoryId;
-                existingProduct.Description = request.Description;
-                existingProduct.Price = request.Price;
-                existingProduct.StockQuantity = request.StockQuantity;
-
-
-
-
-                // Tạo đường dẫn cho ảnh
-                var imagePath = Path.Combine("wwwroot", existingProduct.UrlImage.TrimStart('/'));
-                // Xóa ảnh cũ nếu tồn tại
-                if (File.Exists(imagePath))
+                // Xử lý cập nhật ảnh nếu có
+                if (request.UrlImage != null)
                 {
-                    File.Delete(imagePath);
-                }
-                // Tạo đường dẫn cho ảnh mới
-                var newImagePath = Path.Combine("wwwroot/images", request.UrlImage.FileName);
-                // Lưu ảnh mới vào thư mục
-                using (var stream = new FileStream(newImagePath, FileMode.Create))
-                {
-                    await request.UrlImage.CopyToAsync(stream);
+                    // Tạo đường dẫn cho ảnh cũ
+                    var oldImagePath = Path.Combine("wwwroot", existingProduct.UrlImage.TrimStart('/'));
+                    if (File.Exists(oldImagePath))
+                    {
+                        File.Delete(oldImagePath);
+                    }
+
+                    // Tạo đường dẫn mới
+                    var newImagePath = Path.Combine("wwwroot/images", request.UrlImage.FileName);
+                    using (var stream = new FileStream(newImagePath, FileMode.Create))
+                    {
+                        await request.UrlImage.CopyToAsync(stream);
+                    }
+
+                    existingProduct.UrlImage = $"/images/{request.UrlImage.FileName}";
                 }
 
-                // Cập nhật đường dẫn ảnh trong sản phẩm
-                existingProduct.UrlImage = $"/images/{request.UrlImage.FileName}";
-
-                // Lưu các thay đổi vào cơ sở dữ liệu
+                // Lưu thay đổi vào cơ sở dữ liệu
                 await _context.SaveChangesAsync();
 
-                // Trả về sản phẩm đã được cập nhật
+                // Trả về sản phẩm đã cập nhật
                 var response = _productMaper.Map<ProductDetailResponse>(existingProduct);
                 return response;
-
             }
             catch (Exception ex)
             {
@@ -175,20 +186,48 @@ namespace AcountService.service
         }
 
         // Lấy ra danh sách sản phẩm
-        public async Task<List<ProductDetailResponse>> GetListProduct(int page, int size)
+        public async Task<object> GetListProduct(int page, int size)
         {
             try
             {
+                // Lấy tất cả sản phẩm từ cơ sở dữ liệu
                 var result = await _context.Products.ToListAsync();
+
+                // Sắp xếp theo ngày tạo sản phẩm (giảm dần)
                 var sortDate = result.OrderByDescending(p => p.CreatedAt).ToList();
+
+                // Tính tổng số sản phẩm
+                var totalCount = sortDate.Count();
+
                 // Áp dụng phân trang
                 var paginatedProducts = sortDate.Skip((page - 1) * size).Take(size).ToList();
 
+                var response = new List<ProductDetailResponse>();
 
-                var response = _productMaper.Map<List<ProductDetailResponse>>(paginatedProducts);
+                foreach (var product in paginatedProducts)
+                {
+                    // Kiểm tra nếu sản phẩm có khuyến mãi
+                    var promotional = await _context.PromotionalProducts
+                        .FirstOrDefaultAsync(p => p.ProductId == product.ProductId);
 
+                    // Ánh xạ sản phẩm sang ProductDetailResponse
+                    var productResponse = _productMaper.Map<ProductDetailResponse>(product);
 
-                return response;
+                    // Nếu có khuyến mãi, thêm DiscountPercentage vào ProductDetailResponse
+                    if (promotional != null)
+                    {
+                        productResponse.DiscountPercentage = promotional.DiscountPercentage;
+                    }
+
+                    // Thêm sản phẩm đã ánh xạ vào danh sách phản hồi
+                    response.Add(productResponse);
+                }
+                // Trả về cả danh sách sản phẩm và tổng số sản phẩm
+                return new
+                {
+                    products = response,
+                    totalCount = totalCount
+                };
             }
             catch (Exception ex)
             {
@@ -245,24 +284,50 @@ namespace AcountService.service
         }
 
         // Lấy ra danh sách sản phẩm theo danh mục
-        public async Task<List<ProductDetailResponse>> GetListProductInCategoryId(int page, int size, int categoryId)
+        public async Task<object> GetListProductInCategoryId(int page, int size, int categoryId)
         {
             try
             {
-                // Lấy danh sách sản phẩm thuộc danh mục với categoryId đã cho
+                // Lấy tổng số sản phẩm trong danh mục
+                var totalCount = await _context.Products
+                    .Where(p => p.CategoryId == categoryId) // Lọc theo CategoryId
+                    .CountAsync();
+
+                // Lấy danh sách sản phẩm theo danh mục
                 var products = await _context.Products
-                    .Where(p => p.CategoryId == categoryId) // Lấy sản phẩm theo CategoryId
-                    .OrderByDescending(p => p.CreatedAt)   // Sắp xếp theo ngày tạo
-                    .Skip((page - 1) * size)                // Bỏ qua số lượng sản phẩm đã chỉ định
-                    .Take(size)                             // Lấy số lượng sản phẩm cần thiết
+                    .Where(p => p.CategoryId == categoryId)   // Lấy sản phẩm theo CategoryId
+                    .OrderByDescending(p => p.CreatedAt)      // Sắp xếp theo ngày tạo
+                    .Skip((page - 1) * size)                  // Bỏ qua số lượng sản phẩm đã chỉ định
+                    .Take(size)                               // Lấy số lượng sản phẩm cần thiết
                     .ToListAsync();
 
+                var response = new List<ProductDetailResponse>();
 
+                foreach (var product in products)
+                {
+                    // Kiểm tra nếu sản phẩm có khuyến mãi
+                    var promotional = await _context.PromotionalProducts
+                        .FirstOrDefaultAsync(p => p.ProductId == product.ProductId);
 
-                var response = _productMaper.Map<List<ProductDetailResponse>>(products);
+                    // Ánh xạ sản phẩm sang ProductDetailResponse
+                    var productResponse = _productMaper.Map<ProductDetailResponse>(product);
 
+                    // Nếu có khuyến mãi, thêm DiscountPercentage vào ProductDetailResponse
+                    if (promotional != null)
+                    {
+                        productResponse.DiscountPercentage = promotional.DiscountPercentage;
+                    }
 
-                return response;
+                    // Thêm sản phẩm đã ánh xạ vào danh sách phản hồi
+                    response.Add(productResponse);
+                }
+
+                // Trả về danh sách sản phẩm và tổng số sản phẩm trong danh mục
+                return new
+                {
+                    products = response,
+                    totalCount = totalCount
+                };
             }
             catch (Exception ex)
             {
@@ -270,7 +335,33 @@ namespace AcountService.service
             }
         }
 
+        // Lấy ra mô tả của sản phẩm
+        public async Task<DescriptionResponse> getDescriptionAsync(int productId) 
+        { 
 
+            var des= await _context.Products.FirstOrDefaultAsync(p => p.ProductId == productId);
+            if (des == null)
+            {
+                throw new Exception( "mô tả không tông tại");
+            }
+
+            DescriptionResponse descriptionResponse = new DescriptionResponse()
+            {
+                Description = des.Description
+            };
+            return descriptionResponse;
+        
+        }
+        //TÌM KIẾM SẢN PHẨM THEO TÊN BÁT KÌ
+        public async Task<List<Product>> SearchProductsByKeyword(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+                return new List<Product>();
+
+            return await _context.Products
+                                 .Where(p => EF.Functions.Like(p.Name, $"%{keyword}%"))
+                                 .ToListAsync();
+        }
     }
 
 }

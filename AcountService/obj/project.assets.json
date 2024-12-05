@@ -8193,11 +8193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
+      "projectUniqueName": "D:\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
       "projectName": "BanVatLieuXayDung",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
+      "projectPath": "D:\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\",
+      "outputPath": "D:\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

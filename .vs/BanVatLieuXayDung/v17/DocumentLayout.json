@@ -3,84 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\promotionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\promotionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\promotionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\promotionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\response\\order\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\response\\order\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\review\\reviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\review\\reviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\promotional\\updatepromotionalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\promotional\\updatepromotionalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\promotional\\createpromotionalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\promotional\\createpromotionalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\mapper\\reviewmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\mapper\\reviewmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\mapper\\cartmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\mapper\\cartmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\product\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\product\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\appexception\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\appexception\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\appexception\\statuserrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\appexception\\statuserrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\response\\product\\descriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\response\\product\\descriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\config\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\config\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\status\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\status\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\category\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\category\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\status\\sippingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\status\\sippingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\status\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\status\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\status\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\status\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,16 +91,128 @@
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\response\\category\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\category\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\category\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\category\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\category\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\review\\reviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\review\\reviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\product\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\product\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\product\\updatestockproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\product\\updatestockproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\product\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\product\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\payment\\paymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\payment\\paymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\order\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\order\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\email\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\email\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\email\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\email\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\email\\emailconfrimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\email\\emailconfrimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\account\\userupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\account\\userupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\migrations\\20241031111105_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\migrations\\20241031111105_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\invalidatedtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\invalidatedtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\emailverificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\emailverificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\paymencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\paymencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\response\\order\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\response\\order\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\mapper\\reviewmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\mapper\\reviewmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\mapper\\cartmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\mapper\\cartmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\response\\product\\descriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\response\\product\\descriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\promotionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\promotionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\promotionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\promotionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\promotionalproducts .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,16 +223,8 @@
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\response\\account\\totaluserraterevenueresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\response\\order\\userorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,32 +243,8 @@
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\mapper\\productmaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\dto\\request\\account\\userupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\dto\\request\\account\\userupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\controllers\\paymencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\controllers\\paymencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\appexception\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\appexception\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\appexception\\statuserrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|solutionrelative:acountservice\\appexception\\statuserrorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{466660C5-E6DD-478C-A196-285DCF5F53B9}|AcountService\\BanVatLieuXayDung.csproj|c:\\users\\admin\\source\\repos\\ban_vat_lieu_xay_dung_be_net\\acountservice\\service\\infousershippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -194,7 +274,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 154,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,55 +282,553 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromotionalService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\PromotionalService.cs",
+              "RelativeDocumentMoniker": "AcountService\\service\\PromotionalService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\PromotionalService.cs",
+              "RelativeToolTip": "AcountService\\service\\PromotionalService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwEwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:48:05.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UpdatePromotionalRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Promotional\\UpdatePromotionalRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\Promotional\\UpdatePromotionalRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Promotional\\UpdatePromotionalRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\Promotional\\UpdatePromotionalRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:36:40.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Program.cs",
+              "RelativeDocumentMoniker": "AcountService\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Program.cs",
+              "RelativeToolTip": "AcountService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:05:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json",
+              "RelativeDocumentMoniker": "AcountService\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json",
+              "RelativeToolTip": "AcountService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T06:00:48.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PromotionalController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PromotionalController.cs",
+              "RelativeDocumentMoniker": "AcountService\\Controllers\\PromotionalController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PromotionalController.cs",
+              "RelativeToolTip": "AcountService\\Controllers\\PromotionalController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:47:55.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePromotionalRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Promotional\\CreatePromotionalRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\Promotional\\CreatePromotionalRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Promotional\\CreatePromotionalRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\Promotional\\CreatePromotionalRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:36:38.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\ProductService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\ProductService.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\ProductService.cs",
               "RelativeToolTip": "AcountService\\service\\ProductService.cs",
-              "ViewState": "AgIAAFIBAAAAAAAAAAA4wGMBAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwC4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:49:53.488Z"
+              "WhenOpened": "2024-11-26T11:49:53.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Product.cs",
-              "RelativeDocumentMoniker": "AcountService\\entity\\Product.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Product.cs",
-              "RelativeToolTip": "AcountService\\entity\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\ReviewService.cs",
+              "RelativeDocumentMoniker": "AcountService\\service\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\ReviewService.cs",
+              "RelativeToolTip": "AcountService\\service\\ReviewService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:19:14.268Z"
+              "WhenOpened": "2024-12-04T07:03:49.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "AcountService\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "AcountService\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAEwMEAAABMAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\UserService.cs",
+              "RelativeDocumentMoniker": "AcountService\\service\\UserService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\UserService.cs",
+              "RelativeToolTip": "AcountService\\service\\UserService.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAswH4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:23:29.339Z"
+              "WhenOpened": "2024-11-28T11:26:18.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\mapper\\UserMapper.cs",
+              "RelativeDocumentMoniker": "AcountService\\mapper\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\mapper\\UserMapper.cs",
+              "RelativeToolTip": "AcountService\\mapper\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:50:18.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AcountService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AcountService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwGUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:22:58.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\OrderService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\OrderService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\OrderService.cs",
-              "RelativeToolTip": "AcountService\\service\\OrderService.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAswB0AAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\OrderService.cs*",
+              "RelativeToolTip": "AcountService\\service\\OrderService.cs*",
+              "ViewState": "AgIAANcAAAAAAAAAAAAswO0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:02:20.341Z"
+              "WhenOpened": "2024-11-25T10:02:20.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AcountService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AcountService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:29:11.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\CustomException.cs",
+              "RelativeDocumentMoniker": "AcountService\\AppException\\CustomException.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\CustomException.cs",
+              "RelativeToolTip": "AcountService\\AppException\\CustomException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:40:30.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StatusErrorCode.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\StatusErrorCode.cs",
+              "RelativeDocumentMoniker": "AcountService\\AppException\\StatusErrorCode.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\StatusErrorCode.cs",
+              "RelativeToolTip": "AcountService\\AppException\\StatusErrorCode.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:21:25.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\config\\SeedData.cs",
+              "RelativeDocumentMoniker": "AcountService\\config\\SeedData.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\config\\SeedData.cs",
+              "RelativeToolTip": "AcountService\\config\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:44:45.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\Status.cs",
+              "RelativeDocumentMoniker": "AcountService\\status\\Status.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\Status.cs",
+              "RelativeToolTip": "AcountService\\status\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:43:40.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SippingStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\SippingStatus.cs",
+              "RelativeDocumentMoniker": "AcountService\\status\\SippingStatus.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\SippingStatus.cs",
+              "RelativeToolTip": "AcountService\\status\\SippingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:43:37.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "AcountService\\service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\CategoryService.cs",
+              "RelativeToolTip": "AcountService\\service\\CategoryService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwHQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:35:54.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Category\\CategoryResponse.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\response\\Category\\CategoryResponse.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Category\\CategoryResponse.cs",
+              "RelativeToolTip": "AcountService\\dto\\response\\Category\\CategoryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:36:34.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "AcountService\\status\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\OrderStatus.cs",
+              "RelativeToolTip": "AcountService\\status\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:33:45.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "AcountService\\status\\PaymentStatus.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\status\\PaymentStatus.cs",
+              "RelativeToolTip": "AcountService\\status\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:33:54.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Category\\UpdateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\Category\\UpdateCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Category\\UpdateCategoryRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\Category\\UpdateCategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:36:50.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReviewRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\review\\ReviewRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\review\\ReviewRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\review\\ReviewRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\review\\ReviewRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:07:00.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:26:00.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\UpdateProductRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\product\\UpdateProductRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\UpdateProductRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\product\\UpdateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:36:35.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateStockProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\UpdateStockProductRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\product\\UpdateStockProductRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\UpdateStockProductRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\product\\UpdateStockProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:36:34.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\payment\\PaymentRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\payment\\PaymentRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\payment\\PaymentRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\payment\\PaymentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:59.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Order\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\Order\\OrderRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Order\\OrderRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\Order\\OrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:41.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\email\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\email\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\email\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\email\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:37.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\product\\CreateProductRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\CreateProductRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\product\\CreateProductRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:28:58.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\email\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\email\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\email\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\email\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:35.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmailConfrimRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\email\\EmailConfrimRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\email\\EmailConfrimRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\email\\EmailConfrimRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\email\\EmailConfrimRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:32.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "AcountService\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CartController.cs",
+              "RelativeToolTip": "AcountService\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwG8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:34:57.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
+              "RelativeDocumentMoniker": "AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
+              "RelativeToolTip": "AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:14:15.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AcountService\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "AcountService\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:23:29.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\User.cs",
+              "RelativeDocumentMoniker": "AcountService\\entity\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\User.cs",
+              "RelativeToolTip": "AcountService\\entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:11:55.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241031111105_Init.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Migrations\\20241031111105_Init.cs",
+              "RelativeDocumentMoniker": "AcountService\\Migrations\\20241031111105_Init.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Migrations\\20241031111105_Init.cs",
+              "RelativeToolTip": "AcountService\\Migrations\\20241031111105_Init.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwMgBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:47:14.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\repository\\DataContext.cs",
+              "RelativeDocumentMoniker": "AcountService\\repository\\DataContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\repository\\DataContext.cs",
+              "RelativeToolTip": "AcountService\\repository\\DataContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T05:53:14.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InvalidatedToken.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\InvalidatedToken.cs",
+              "RelativeDocumentMoniker": "AcountService\\entity\\InvalidatedToken.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\InvalidatedToken.cs",
+              "RelativeToolTip": "AcountService\\entity\\InvalidatedToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:32:45.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmailVerificationCode.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\EmailVerificationCode.cs",
+              "RelativeDocumentMoniker": "AcountService\\entity\\EmailVerificationCode.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\EmailVerificationCode.cs",
+              "RelativeToolTip": "AcountService\\entity\\EmailVerificationCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:30:55.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Cart.cs",
+              "RelativeDocumentMoniker": "AcountService\\entity\\Cart.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Cart.cs",
+              "RelativeToolTip": "AcountService\\entity\\Cart.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:30:45.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "OrderResponse.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Order\\OrderResponse.cs",
               "RelativeDocumentMoniker": "AcountService\\dto\\response\\Order\\OrderResponse.cs",
@@ -262,32 +840,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 45,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Product.cs",
+              "RelativeDocumentMoniker": "AcountService\\entity\\Product.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Product.cs",
+              "RelativeToolTip": "AcountService\\entity\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:19:14.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\CartService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\CartService.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\CartService.cs",
               "RelativeToolTip": "AcountService\\service\\CartService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwD4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T10:15:26.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\UserService.cs",
-              "RelativeDocumentMoniker": "AcountService\\service\\UserService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\UserService.cs",
-              "RelativeToolTip": "AcountService\\service\\UserService.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAgwNAAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 42,
+              "Title": "PaymenController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PaymenController.cs",
+              "RelativeDocumentMoniker": "AcountService\\Controllers\\PaymenController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PaymenController.cs",
+              "RelativeToolTip": "AcountService\\Controllers\\PaymenController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:26:18.066Z"
+              "WhenOpened": "2024-11-26T12:45:06.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 46,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "AcountService\\Controllers\\ReviewController.cs",
@@ -299,31 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReviewRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\review\\ReviewRequest.cs",
-              "RelativeDocumentMoniker": "AcountService\\dto\\request\\review\\ReviewRequest.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\review\\ReviewRequest.cs",
-              "RelativeToolTip": "AcountService\\dto\\request\\review\\ReviewRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T09:07:00.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Program.cs",
-              "RelativeDocumentMoniker": "AcountService\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Program.cs",
-              "RelativeToolTip": "AcountService\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:05:05.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 65,
               "Title": "20241204100633_UpdateReview.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Migrations\\20241204100633_UpdateReview.cs",
               "RelativeDocumentMoniker": "AcountService\\Migrations\\20241204100633_UpdateReview.cs",
@@ -335,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 48,
               "Title": "ReviewMaper.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\mapper\\ReviewMaper.cs",
               "RelativeDocumentMoniker": "AcountService\\mapper\\ReviewMaper.cs",
@@ -347,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 49,
               "Title": "CartMaper.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\mapper\\CartMaper.cs",
               "RelativeDocumentMoniker": "AcountService\\mapper\\CartMaper.cs",
@@ -359,19 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\ReviewService.cs",
-              "RelativeDocumentMoniker": "AcountService\\service\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\ReviewService.cs",
-              "RelativeToolTip": "AcountService\\service\\ReviewService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T07:03:49.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 47,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Review.cs",
               "RelativeDocumentMoniker": "AcountService\\entity\\Review.cs",
@@ -383,43 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AcountService\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AcountService\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowGMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:29:11.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateProductRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\CreateProductRequest.cs",
-              "RelativeDocumentMoniker": "AcountService\\dto\\request\\product\\CreateProductRequest.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\product\\CreateProductRequest.cs",
-              "RelativeToolTip": "AcountService\\dto\\request\\product\\CreateProductRequest.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:28:58.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\repository\\DataContext.cs",
-              "RelativeDocumentMoniker": "AcountService\\repository\\DataContext.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\repository\\DataContext.cs",
-              "RelativeToolTip": "AcountService\\repository\\DataContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T05:53:14.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 50,
               "Title": "DescriptionResponse.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\product\\DescriptionResponse.cs",
               "RelativeDocumentMoniker": "AcountService\\dto\\response\\product\\DescriptionResponse.cs",
@@ -431,19 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CategoryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Category\\CategoryResponse.cs",
-              "RelativeDocumentMoniker": "AcountService\\dto\\response\\Category\\CategoryResponse.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Category\\CategoryResponse.cs",
-              "RelativeToolTip": "AcountService\\dto\\response\\Category\\CategoryResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T10:36:34.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 51,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "AcountService\\Controllers\\CategoryController.cs",
@@ -455,31 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "AcountService\\service\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\CategoryService.cs",
-              "RelativeToolTip": "AcountService\\service\\CategoryService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAnwBcAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T10:35:54.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
-              "RelativeDocumentMoniker": "AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
-              "RelativeToolTip": "AcountService\\dto\\request\\Category\\CreateCategoryRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:26:00.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 52,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Category.cs",
               "RelativeDocumentMoniker": "AcountService\\entity\\Category.cs",
@@ -491,31 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PromotionalService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\PromotionalService.cs",
-              "RelativeDocumentMoniker": "AcountService\\service\\PromotionalService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\PromotionalService.cs",
-              "RelativeToolTip": "AcountService\\service\\PromotionalService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:48:05.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PromotionalController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PromotionalController.cs",
-              "RelativeDocumentMoniker": "AcountService\\Controllers\\PromotionalController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PromotionalController.cs",
-              "RelativeToolTip": "AcountService\\Controllers\\PromotionalController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:47:55.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 53,
               "Title": "PromotionalProducts .cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\PromotionalProducts .cs",
               "RelativeDocumentMoniker": "AcountService\\entity\\PromotionalProducts .cs",
@@ -527,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 54,
               "Title": "TotalUserRateRevenueResponse.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\account\\TotalUserRateRevenueResponse.cs",
               "RelativeDocumentMoniker": "AcountService\\dto\\response\\account\\TotalUserRateRevenueResponse.cs",
@@ -539,19 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "AcountService\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CartController.cs",
-              "RelativeToolTip": "AcountService\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowG8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T16:34:57.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 55,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\EmailService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\EmailService.cs",
@@ -563,19 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "AcountService\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "AcountService\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:22:58.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 56,
               "Title": "UserOrder.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Order\\UserOrder.cs",
               "RelativeDocumentMoniker": "AcountService\\dto\\response\\Order\\UserOrder.cs",
@@ -587,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 57,
               "Title": "OrderNewResponse.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\response\\Order\\OrderNewResponse.cs",
               "RelativeDocumentMoniker": "AcountService\\dto\\response\\Order\\OrderNewResponse.cs",
@@ -599,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 58,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\Order.cs",
               "RelativeDocumentMoniker": "AcountService\\entity\\Order.cs",
@@ -611,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 59,
               "Title": "ProductMaper.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\mapper\\ProductMaper.cs",
               "RelativeDocumentMoniker": "AcountService\\mapper\\ProductMaper.cs",
@@ -623,43 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "UserUpdateRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
-              "RelativeDocumentMoniker": "AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
-              "RelativeToolTip": "AcountService\\dto\\request\\account\\UserUpdateRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:14:15.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\User.cs",
-              "RelativeDocumentMoniker": "AcountService\\entity\\User.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\User.cs",
-              "RelativeToolTip": "AcountService\\entity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:11:55.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PaymenController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PaymenController.cs",
-              "RelativeDocumentMoniker": "AcountService\\Controllers\\PaymenController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\PaymenController.cs",
-              "RelativeToolTip": "AcountService\\Controllers\\PaymenController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwDYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:45:06.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 60,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\PaymentService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\PaymentService.cs",
@@ -671,43 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json",
-              "RelativeDocumentMoniker": "AcountService\\appsettings.json",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json",
-              "RelativeToolTip": "AcountService\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-25T06:00:48.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CustomException.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\CustomException.cs",
-              "RelativeDocumentMoniker": "AcountService\\AppException\\CustomException.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\CustomException.cs",
-              "RelativeToolTip": "AcountService\\AppException\\CustomException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:40:30.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "StatusErrorCode.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\StatusErrorCode.cs",
-              "RelativeDocumentMoniker": "AcountService\\AppException\\StatusErrorCode.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\AppException\\StatusErrorCode.cs",
-              "RelativeToolTip": "AcountService\\AppException\\StatusErrorCode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:21:25.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 64,
               "Title": "20241126130219_UpdateOrderss.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Migrations\\20241126130219_UpdateOrderss.cs",
               "RelativeDocumentMoniker": "AcountService\\Migrations\\20241126130219_UpdateOrderss.cs",
@@ -719,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "InfoUserShippingService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\InfoUserShippingService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\InfoUserShippingService.cs",
@@ -731,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 62,
               "Title": "DiscountService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\service\\DiscountService.cs",
               "RelativeDocumentMoniker": "AcountService\\service\\DiscountService.cs",
@@ -743,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 63,
               "Title": "InfoUserOrder.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\entity\\InfoUserOrder.cs",
               "RelativeDocumentMoniker": "AcountService\\entity\\InfoUserOrder.cs",

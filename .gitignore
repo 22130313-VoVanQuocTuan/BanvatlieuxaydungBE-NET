@@ -1,0 +1,32 @@
+# Ignore Visual Studio temporary files
+.vs/
+.vscode/
+.idea/
+
+# Ignore build output files
+*.exe
+*.dll
+*.pdb
+*.obj
+*.suo
+*.user
+
+# Ignore bin and obj folders
+bin/
+obj/
+
+# Ignore NuGet package files
+*.nupkg
+# Ignore NuGet folders
+.nuget/
+
+# Ignore log files
+*.log
+
+# Ignore temporary project files
+project.assets.json
+project.nuget.cache
+
+# Ignore migration files
+AcountService/Migrations/*.cs
+AcountService/Migrations/*.Designer.cs

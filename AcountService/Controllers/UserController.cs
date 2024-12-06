@@ -1,6 +1,5 @@
 ﻿using AcountService.dto.request.accountservice;
 using AcountService.service;
-using AcountService.status;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,7 +27,7 @@ namespace AcountService.Controllers
                 return Ok(new
                 {
                     status = 200,
-                    emailVerificationCode = Status.UNVERIFIED.ToString(),
+                    emailVerificationCode = "Chứ xác thực",
                     result = userResponse
                 }); // Trả về HTTP 200 OK nếu thành công
             }

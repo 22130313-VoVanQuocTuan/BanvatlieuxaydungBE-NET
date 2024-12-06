@@ -1,6 +1,5 @@
 ﻿using AcountService.entity;
 using BanVatLieuXayDung.entity;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

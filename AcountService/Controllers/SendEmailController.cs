@@ -1,14 +1,8 @@
 ﻿using AcountService.dto.request.email;
 using AcountService.entity;
 using AcountService.service;
-using AcountService.status;
-using BanVatLieuXayDung.dto.request.email;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
-using NuGet.Protocol;
 using ForgotPasswordRequest = BanVatLieuXayDung.dto.request.email.ForgotPasswordRequest;
 using ResetPasswordRequest = BanVatLieuXayDung.dto.request.email.ResetPasswordRequest;
 
@@ -34,7 +28,7 @@ namespace AcountService.Controllers
             try
             {
                 var result = await _emailService.ConfirmEmailAsync(request);
-                return Ok(new { status = 200, mailVerificationCode = Status.VERIFIED, result });
+                return Ok(new { status = 200, mailVerificationCode = "đã xác thực", result });
 
             }
             catch (Exception ex)

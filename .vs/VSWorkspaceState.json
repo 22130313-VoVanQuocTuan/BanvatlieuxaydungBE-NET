@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\AcountService",
-    "\\AcountService\\Controllers"
+    "\\AcountService\\Controllers",
+    "\\AcountService\\entity"
   ],
-  "SelectedNode": "\\AcountService\\Controllers\\PromotionalController.cs",
+  "SelectedNode": "\\AcountService\\entity\\CartProduct.cs",
   "PreviewInSolutionExplorer": false
 }

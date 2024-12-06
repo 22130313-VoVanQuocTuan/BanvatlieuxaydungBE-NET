@@ -8,7 +8,7 @@ namespace AcountService.entity
         [Key]
         public int ProductId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public string UrlImage {  get; set; }
         public decimal Price { get; set; }
        
@@ -19,7 +19,7 @@ namespace AcountService.entity
 
         public DateTime UpdatedAt { get; set; } // Ngày cập nhật sản phẩm
 
-        public string Status { get; set; } // Trạng thái hoạt động của sản phẩm
+        public string? Status { get; set; } // Trạng thái hoạt động của sản phẩm
 
         // Quan hệ với Category
         public int CategoryId { get; set; } // Danh mục sản phẩm

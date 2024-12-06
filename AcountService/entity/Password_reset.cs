@@ -8,7 +8,7 @@ namespace BanVatLieuXayDung.entity
         [Key]
         public int Id { get; set; } // Đặt tên thuộc tính viết hoa theo chuẩn PascalCase
 
-        public string ResetToken { get; set; } // Tên thuộc tính viết hoa
+        public string? ResetToken { get; set; } // Tên thuộc tính viết hoa
         public DateTime TokenExpiry { get; set; }
 
         // Khóa ngoại liên kết với bảng User

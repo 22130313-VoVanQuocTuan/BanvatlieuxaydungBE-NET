@@ -1,5 +1,4 @@
-﻿using AcountService.status;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace AcountService.entity
 {
@@ -11,7 +10,7 @@ namespace AcountService.entity
         public DateTime ShippingDate { get; set; } // Ngày giao hàng
         public string? ShipmentMethod { get; set; } // Phương thức giao hàng
         public string? TrackingNumber { get; set; } // Số theo dõi đơn hàng
-        public string shipping_status { get; set; }
+        public string? shipping_status { get; set; }
         public int OrderId { get; set; } // Khóa ngoại đến đơn hàng
         public Order? Order { get; set; } // Liên kết đến đơn hàng
     }

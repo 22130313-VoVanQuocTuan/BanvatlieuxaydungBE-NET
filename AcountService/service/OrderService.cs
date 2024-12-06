@@ -2,13 +2,9 @@
 using AcountService.dto.response.Order;
 using AcountService.entity;
 using AcountService.Repository;
-using AcountService.status;
 using AutoMapper;
-using Azure;
-using Azure.Core;
 using BanVatLieuXayDung.dto.response.Order;
 using Microsoft.EntityFrameworkCore;
-using static NuGet.Packaging.PackagingConstants;
 
 namespace AcountService.service
 {
@@ -81,14 +77,11 @@ namespace AcountService.service
                 _context.Orders.Add(order);
                 await _context.SaveChangesAsync(); // Lưu order và có OrderId tự động sinh ra
 
-                // Lưu đơn hàng vào cơ sở dữ liệu
-                _context.Orders.Add(order);
-                await _context.SaveChangesAsync(); // Lưu order và có OrderId tự động sinh ra
-
                 var respone = _mapper.Map<OrderResponse>(order);
                 respone.TotalAmount = cart.CartProducts.Sum(c => c.TotalPrice);
                 respone.Quantity = cart.TotalItems;
                 respone.TrackingNumber = order.TrackingNumber;
+
                 return respone;
 
             

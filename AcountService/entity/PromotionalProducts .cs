@@ -11,7 +11,7 @@ namespace BanVatLieuXayDung.entity
         public decimal DiscountPercentage { get; set; }  // Tỷ lệ giảm giá
         public DateTime StartDate { get; set; }  // Ngày bắt đầu khuyến mãi
         public DateTime EndDate { get; set; }  // Ngày kết thúc khuyến mãi
-        public string ConditionDescription { get; set; }  // Mô tả điều kiện khuyến mãi
+        public string? ConditionDescription { get; set; }  // Mô tả điều kiện khuyến mãi
 
         // Có thể thêm điều hướng nếu cần thiết
         public virtual Product Product { get; set; }  // Định nghĩa mối quan hệ với thực thể Product

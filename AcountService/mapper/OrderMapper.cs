@@ -1,7 +1,5 @@
-﻿using AcountService.dto.request.Order;
-using AcountService.dto.response.Order;
+﻿using AcountService.dto.response.Order;
 using AcountService.entity;
-using AcountService.status;
 using AutoMapper;
 using BanVatLieuXayDung.dto.response.Order;
 

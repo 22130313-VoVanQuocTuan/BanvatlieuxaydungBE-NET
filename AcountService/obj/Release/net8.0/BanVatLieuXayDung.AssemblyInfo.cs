@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanVatLieuXayDung")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5ca3b2bf71d7163f4a3211742c155fb21b9da27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bcef10d128cca11fcd7f9f248831fcc64d7ac85")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanVatLieuXayDung")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanVatLieuXayDung")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

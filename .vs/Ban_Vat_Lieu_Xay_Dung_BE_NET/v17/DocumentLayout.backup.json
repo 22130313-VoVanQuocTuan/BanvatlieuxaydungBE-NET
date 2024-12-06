@@ -3,8 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\BanVatLieuXayDung.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Release\\net8.0\\AcountService.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Release\\net8.0\\AcountService.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfoInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfoInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLi.DFC39A4B.Up2Date||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLi.DFC39A4B.Up2Date||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\ApiEndpoints.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\ApiEndpoints.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfoInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfoInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.CoreCompileInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.CoreCompileInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\staticwebassets.build.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\staticwebassets.build.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.sourcelink.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.sourcelink.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\AcountService.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\AcountService.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcountService\\obj\\AcountService.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -38,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +134,284 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json",
+              "RelativeDocumentMoniker": "AcountService\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\appsettings.json",
+              "RelativeToolTip": "AcountService\\appsettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T10:20:47.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AcountService.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Release\\net8.0\\AcountService.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Release\\net8.0\\AcountService.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Release\\net8.0\\AcountService.AssemblyInfo.cs",
+              "RelativeToolTip": "AcountService\\obj\\Release\\net8.0\\AcountService.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:20:36.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "AcountService\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:20:35.133Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BanVatLieuXayDung.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
+              "RelativeDocumentMoniker": "AcountService\\BanVatLieuXayDung.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
+              "RelativeToolTip": "AcountService\\BanVatLieuXayDung.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T08:22:33.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BanVatLieuXayDung.GlobalUsings.g.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.GlobalUsings.g.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.GlobalUsings.g.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.GlobalUsings.g.cs",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.GlobalUsings.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:20:26.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2024-12-06T10:20:25.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.MvcApplicationPartsAssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:20:23.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BanVatLieuXayDung.AssemblyInfoInputs.cache",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfoInputs.cache",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfoInputs.cache",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfoInputs.cache",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfoInputs.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2024-12-06T10:20:14.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BanVatLi.DFC39A4B.Up2Date",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLi.DFC39A4B.Up2Date",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLi.DFC39A4B.Up2Date",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLi.DFC39A4B.Up2Date",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLi.DFC39A4B.Up2Date",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-06T10:19:12.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BanVatLieuXayDung.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfo.cs",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:18:21.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiEndpoints.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\ApiEndpoints.json",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\ApiEndpoints.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\ApiEndpoints.json",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\ApiEndpoints.json",
+              "ViewState": "AgIAAN8CAAAAAAAAAAAAAPkCAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T10:18:54.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AcountService.MvcApplicationPartsAssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cs",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:18:45.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AcountService.AssemblyInfoInputs.cache",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfoInputs.cache",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfoInputs.cache",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfoInputs.cache",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfoInputs.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2024-12-06T10:18:30.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AcountService.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfo.cs",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\AcountService.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:18:27.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BanVatLieuXayDung.csproj.CoreCompileInputs.cache",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.CoreCompileInputs.cache",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.CoreCompileInputs.cache",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.CoreCompileInputs.cache",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.CoreCompileInputs.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2024-12-06T10:18:24.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.csproj.BuildWithSkipAnalyzers",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-06T10:18:23.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BanVatLieuXayDung.sourcelink.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.sourcelink.json",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.sourcelink.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.sourcelink.json",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\BanVatLieuXayDung.sourcelink.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T10:18:18.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "staticwebassets.build.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\staticwebassets.build.json",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\staticwebassets.build.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\staticwebassets.build.json",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\staticwebassets.build.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T10:18:17.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AcountService.GlobalUsings.g.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.GlobalUsings.g.cs",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\AcountService.GlobalUsings.g.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.GlobalUsings.g.cs",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\AcountService.GlobalUsings.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:18:12.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AcountService.MvcApplicationPartsAssemblyInfo.cache",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cache",
+              "RelativeDocumentMoniker": "AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cache",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cache",
+              "RelativeToolTip": "AcountService\\obj\\Debug\\net8.0\\AcountService.MvcApplicationPartsAssemblyInfo.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2024-12-06T10:18:12.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BanVatLieuXayDung.csproj.nuget.g.props",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.props",
+              "RelativeDocumentMoniker": "AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.props",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.props",
+              "RelativeToolTip": "AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-06T10:18:03.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BanVatLieuXayDung.csproj.nuget.g.targets",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.targets",
+              "RelativeDocumentMoniker": "AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.targets",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.targets",
+              "RelativeToolTip": "AcountService\\obj\\BanVatLieuXayDung.csproj.nuget.g.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-06T10:17:45.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AcountService.csproj.nuget.g.props",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\AcountService.csproj.nuget.g.props",
+              "RelativeDocumentMoniker": "AcountService\\obj\\AcountService.csproj.nuget.g.props",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\obj\\AcountService.csproj.nuget.g.props",
+              "RelativeToolTip": "AcountService\\obj\\AcountService.csproj.nuget.g.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-06T10:17:43.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "BanVatLieuXayDung.csproj.user",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj.user",
               "RelativeDocumentMoniker": "AcountService\\BanVatLieuXayDung.csproj.user",
@@ -54,12 +419,11 @@
               "RelativeToolTip": "AcountService\\BanVatLieuXayDung.csproj.user",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-12-06T08:22:39.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:22:39.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Program.cs",
               "RelativeDocumentMoniker": "AcountService\\Program.cs",
@@ -67,25 +431,11 @@
               "RelativeToolTip": "AcountService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T08:22:37.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:22:37.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BanVatLieuXayDung.csproj",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
-              "RelativeDocumentMoniker": "AcountService\\BanVatLieuXayDung.csproj",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\BanVatLieuXayDung.csproj",
-              "RelativeToolTip": "AcountService\\BanVatLieuXayDung.csproj",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-06T08:22:33.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
               "Title": "OrderControler.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\OrderControler.cs",
               "RelativeDocumentMoniker": "AcountService\\Controllers\\OrderControler.cs",
@@ -96,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 26,
               "Title": "InfoOrderController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\InfoOrderController.cs",
               "RelativeDocumentMoniker": "AcountService\\Controllers\\InfoOrderController.cs",
@@ -108,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 27,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "AcountService\\Controllers\\CategoryController.cs",
@@ -120,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "AcountService\\Controllers\\CartController.cs",

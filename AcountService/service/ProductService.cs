@@ -302,13 +302,11 @@ namespace AcountService.service
                     .ToListAsync();
 
                 var response = new List<ProductDetailResponse>();
-
-                foreach (var product in products)
+               foreach (var product in products)
                 {
                     // Kiểm tra nếu sản phẩm có khuyến mãi
                     var promotional = await _context.PromotionalProducts
                         .FirstOrDefaultAsync(p => p.ProductId == product.ProductId);
-
                     // Ánh xạ sản phẩm sang ProductDetailResponse
                     var productResponse = _productMaper.Map<ProductDetailResponse>(product);
 
@@ -321,7 +319,6 @@ namespace AcountService.service
                     // Thêm sản phẩm đã ánh xạ vào danh sách phản hồi
                     response.Add(productResponse);
                 }
-
                 // Trả về danh sách sản phẩm và tổng số sản phẩm trong danh mục
                 return new
                 {

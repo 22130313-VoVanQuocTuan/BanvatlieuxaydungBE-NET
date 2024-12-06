@@ -21,6 +21,5 @@ namespace AcountService.entity
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
         public ICollection<Password_reset> password_Resets { get; set; } = new List<Password_reset>();
         public ICollection<InfoUserOrder> infoUserOrders { get; set; } = new List<InfoUserOrder>();
-
     }
 }

@@ -20,7 +20,6 @@ namespace AcountService.Controllers
 
         // Thêm sản phẩm
         [HttpPost("product")]
-        
         public async Task<IActionResult> AddProductAsync([FromForm]CreateProductRequest request)
         {
             try
@@ -48,7 +47,6 @@ namespace AcountService.Controllers
 
         // Cập nhật sản phẩm
         [HttpPut("{id}")]
-    
         public async Task<IActionResult> UpdateProductAsync(int id,  [FromForm]  UpdateProductRequest request)
         {
             try
@@ -88,8 +86,6 @@ namespace AcountService.Controllers
 
         // Lấy danh sách sản phẩm
         [HttpGet]
-        
-
         public async Task<IActionResult> GetListProductAsync([FromQuery] int page = 1, [FromQuery] int size = 10)
         {
             try
@@ -128,8 +124,7 @@ namespace AcountService.Controllers
 
         // Cập nhật tồn kho sản phẩm
         [HttpPut("Stock/{id}")]
-        [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> UpdateStockAsync([FromBody] UpdateStockProductRequest request)
+       public async Task<IActionResult> UpdateStockAsync([FromBody] UpdateStockProductRequest request)
         {
             try
             {

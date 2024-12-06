@@ -16,14 +16,12 @@ namespace AcountService.service
     {
         private readonly DataContext _context;
         private readonly IMapper _mapper;
-
-
-        public OrderService(DataContext context, IMapper mapper)
+        private readonly IConfiguration _configuration;
+        public OrderService(DataContext context, IMapper mapper, IConfiguration configuration)
         {
-
-
             _context = context;
             _mapper = mapper;
+            _configuration = configuration;
         }
 
         //Hiển thị  đơn hàng
@@ -31,7 +29,6 @@ namespace AcountService.service
         {
             try
             {
-
                 // Tìm giỏ hàng của người dùng
                 var cart = await _context.Carts
                     .Include(c => c.CartProducts)
@@ -78,13 +75,15 @@ namespace AcountService.service
                         Discount = cp.discount_amount,
                         TotalPrice = cp.TotalPrice,
 
-
                     }).ToList()
                 };
                 // Lưu đơn hàng vào cơ sở dữ liệu
                 _context.Orders.Add(order);
                 await _context.SaveChangesAsync(); // Lưu order và có OrderId tự động sinh ra
 
+                // Lưu đơn hàng vào cơ sở dữ liệu
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync(); // Lưu order và có OrderId tự động sinh ra
 
                 var respone = _mapper.Map<OrderResponse>(order);
                 respone.TotalAmount = cart.CartProducts.Sum(c => c.TotalPrice);
@@ -92,9 +91,8 @@ namespace AcountService.service
                 respone.TrackingNumber = order.TrackingNumber;
                 return respone;
 
-
-
-
+            
+             
             }
             catch (Exception ex)
             {
@@ -235,6 +233,7 @@ namespace AcountService.service
         }
     }
 }
+
 
 
 

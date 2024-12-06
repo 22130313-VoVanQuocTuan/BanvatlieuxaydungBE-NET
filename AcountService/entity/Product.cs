@@ -33,10 +33,5 @@ namespace AcountService.entity
 
 
         public ICollection<PromotionalProducts> PromotionalProducts { get; set; } = new List<PromotionalProducts>();
-
-      
-
-
-
     }
 }

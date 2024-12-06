@@ -4,6 +4,7 @@ using Azure.Core;
 using BanVatLieuXayDung.dto.request.Promotional;
 using BanVatLieuXayDung.service;
 using Microsoft.AspNetCore.Authorization;
+
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -22,6 +23,7 @@ namespace BanVatLieuXayDung.Controllers
         }
 
         // Lấy tất cả các sản phẩm khuyến mãi
+
         [HttpGet]
         public async Task<IActionResult> GetAllPromotional()
         {
@@ -62,7 +64,7 @@ namespace BanVatLieuXayDung.Controllers
         //Tạo sản phẩm khuyến mãi
         [HttpPost]
         [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> CreatePromotional([FromBody] CreatePromotionalRequest request)
+         public async Task<IActionResult> CreatePromotional([FromBody] CreatePromotionalRequest request)
         {
             try
             {
@@ -78,6 +80,7 @@ namespace BanVatLieuXayDung.Controllers
                 return StatusCode(500, new { status = 500, message = "Có lỗi xảy ra: ", errorMessage = ex.Message });
             }
         }
+
 
 
         // Cập nhật khuyến mãi
@@ -101,10 +104,10 @@ namespace BanVatLieuXayDung.Controllers
         }
 
 
+
         //  Xóa khuyến mãi theo ID
         [HttpDelete("{saleId}")]
         [Authorize(Policy = "AdminOnly")]
-
         public async Task<IActionResult> DeletePromotional(int saleId)
         {
             try

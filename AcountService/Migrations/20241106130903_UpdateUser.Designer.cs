@@ -4,6 +4,7 @@ using AcountService.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BanVatLieuXayDung.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20241106130903_UpdateUser")]
+    partial class UpdateUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,31 +33,9 @@ namespace BanVatLieuXayDung.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartId"));
 
-                    b.Property<int>("TotalItems")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("TotalPrice")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("code")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("code_discount")
-                        .HasColumnType("decimal(10,2)");
-
-                    b.Property<decimal>("discount_amount")
-                        .HasColumnType("decimal(10,2)");
-
-                    b.Property<decimal>("promotion_discount")
-                        .HasColumnType("decimal(10,2)");
-
-                    b.Property<decimal>("shipping_fee")
-                        .HasColumnType("decimal(10,2)");
 
                     b.HasKey("CartId");
 
@@ -87,11 +68,6 @@ namespace BanVatLieuXayDung.Migrations
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
 
-
-                    b.Property<decimal>("discount_amount")
-                        .HasColumnType("decimal(10,2)");
-
-
                     b.HasKey("CartProductId");
 
                     b.HasIndex("CartId");
@@ -108,6 +84,10 @@ namespace BanVatLieuXayDung.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategotyId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -127,9 +107,7 @@ namespace BanVatLieuXayDung.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DiscountId"));
 
                     b.Property<decimal>("Percent")
-
-                        .HasColumnType("decimal(18,2)");
-
+                        .HasColumnType("decimal(5,2)");
 
                     b.Property<string>("code")
                         .IsRequired()
@@ -189,6 +167,10 @@ namespace BanVatLieuXayDung.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -197,23 +179,17 @@ namespace BanVatLieuXayDung.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Note")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
-
+                    b.HasIndex("OrderId")
+                        .IsUnique();
 
                     b.ToTable("InfoUserOrders");
                 });
@@ -239,57 +215,28 @@ namespace BanVatLieuXayDung.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Note")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("IsPaid")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PhoneNumber")
+                    b.Property<string>("OrderNote")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("TrackingNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<decimal>("discount_amount")
-                        .HasColumnType("decimal(10,2)");
-
-                    b.Property<string>("payment_method")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("payment_status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("shipping_address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("shipping_fee")
-                        .HasColumnType("decimal(10,2)");
 
                     b.HasKey("OrderId");
 
@@ -306,14 +253,8 @@ namespace BanVatLieuXayDung.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderDetailId"));
 
-                    b.Property<decimal>("Discount")
-                        .HasColumnType("decimal(10,2)");
-
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -357,22 +298,27 @@ namespace BanVatLieuXayDung.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("VnpReturnUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VnpSecureHash")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VnpTmnCode")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VnpTransactionNo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("PaymentId");
 
-                    b.HasIndex("OrderId");
+                    b.HasIndex("OrderId")
+                        .IsUnique();
 
-                    b.ToTable("Payment");
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("AcountService.entity.Product", b =>
@@ -393,17 +339,15 @@ namespace BanVatLieuXayDung.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
 
                     b.Property<int>("StockQuantity")
                         .HasColumnType("int");
@@ -464,6 +408,9 @@ namespace BanVatLieuXayDung.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -477,6 +424,40 @@ namespace BanVatLieuXayDung.Migrations
                     b.ToTable("Reviews");
                 });
 
+            modelBuilder.Entity("AcountService.entity.Shipment", b =>
+                {
+                    b.Property<int>("ShipmentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShipmentId"));
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShipmentMethod")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShippingAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ShippingDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TrackingNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ShipmentId");
+
+                    b.HasIndex("OrderId")
+                        .IsUnique();
+
+                    b.ToTable("Shipments");
+                });
+
             modelBuilder.Entity("AcountService.entity.User", b =>
                 {
                     b.Property<string>("Id")
@@ -485,13 +466,15 @@ namespace BanVatLieuXayDung.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<string>("Address")
-                        .IsRequired()
+                    b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("Dob")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -500,10 +483,6 @@ namespace BanVatLieuXayDung.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -523,7 +502,6 @@ namespace BanVatLieuXayDung.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
@@ -550,37 +528,6 @@ namespace BanVatLieuXayDung.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-                });
-
-
-            modelBuilder.Entity("BanVatLieuXayDung.entity.Password_reset", b =>
-
-                {
-                    b.Property<int>("SaleId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SaleId"));
-
-
-                    b.Property<string>("ResetToken")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("TokenExpiry")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-
-                    b.HasKey("SaleId");
-
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("password_Resets");
                 });
 
             modelBuilder.Entity("BanVatLieuXayDung.entity.PromotionalProducts", b =>
@@ -791,15 +738,13 @@ namespace BanVatLieuXayDung.Migrations
 
             modelBuilder.Entity("AcountService.entity.InfoUserOrder", b =>
                 {
-                    b.HasOne("AcountService.entity.User", "Users")
-                        .WithMany("infoUserOrders")
-                        .HasForeignKey("UserId")
+                    b.HasOne("AcountService.entity.Order", "Order")
+                        .WithOne("InfoUserOrder")
+                        .HasForeignKey("AcountService.entity.InfoUserOrder", "OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-
-                    b.Navigation("Users");
-
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("AcountService.entity.Order", b =>
@@ -827,8 +772,8 @@ namespace BanVatLieuXayDung.Migrations
             modelBuilder.Entity("AcountService.entity.Payment", b =>
                 {
                     b.HasOne("AcountService.entity.Order", "Order")
-                        .WithMany()
-                        .HasForeignKey("OrderId")
+                        .WithOne("Payment")
+                        .HasForeignKey("AcountService.entity.Payment", "OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -865,26 +810,15 @@ namespace BanVatLieuXayDung.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("BanVatLieuXayDung.entity.Password_reset", b =>
+            modelBuilder.Entity("AcountService.entity.Shipment", b =>
                 {
-                    b.HasOne("AcountService.entity.User", "User")
-                        .WithMany("password_Resets")
-                        .HasForeignKey("UserId")
+                    b.HasOne("AcountService.entity.Order", "Order")
+                        .WithOne("Shipment")
+                        .HasForeignKey("AcountService.entity.Shipment", "OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("BanVatLieuXayDung.entity.PromotionalProducts", b =>
-                {
-                    b.HasOne("AcountService.entity.Product", "Product")
-                        .WithMany("PromotionalProducts")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("BanVatLieuXayDung.entity.PromotionalProducts", b =>
@@ -961,7 +895,16 @@ namespace BanVatLieuXayDung.Migrations
 
             modelBuilder.Entity("AcountService.entity.Order", b =>
                 {
+                    b.Navigation("InfoUserOrder")
+                        .IsRequired();
+
                     b.Navigation("OrderDetails");
+
+                    b.Navigation("Payment")
+                        .IsRequired();
+
+                    b.Navigation("Shipment")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("AcountService.entity.Product", b =>
@@ -984,10 +927,6 @@ namespace BanVatLieuXayDung.Migrations
                     b.Navigation("Orders");
 
                     b.Navigation("Reviews");
-
-                    b.Navigation("infoUserOrders");
-
-                    b.Navigation("password_Resets");
                 });
 #pragma warning restore 612, 618
         }

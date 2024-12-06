@@ -11,8 +11,7 @@ namespace AcountService.entity
 
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
-
-        public string Status { get; set; }
+       public string Status { get; set; }
         public decimal shipping_fee { get; set; }
         public decimal discount_amount { get; set; }
         public string payment_method { get; set; }

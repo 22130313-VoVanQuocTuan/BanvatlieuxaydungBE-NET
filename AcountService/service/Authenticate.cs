@@ -69,9 +69,9 @@ namespace AcountService.service
             await _context.RefreshTokens.AddAsync(storedNewRefreshToken);
             await _context.SaveChangesAsync();
 
-
             var role = await _userManager.GetRolesAsync(user);
             var userRole = role.FirstOrDefault( );
+
             return new TokenResponse
             {
                 Token = newToken,
@@ -137,6 +137,7 @@ namespace AcountService.service
             try
             {
                 var refreshToken = request.RefreshToken;
+
 
                 // Tìm refresh token cũ trong cơ sở dữ liệu
                 var storedRefreshToken = await _context.RefreshTokens.FirstOrDefaultAsync(t => t.Token == refreshToken);

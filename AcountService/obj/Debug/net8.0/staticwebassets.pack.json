@@ -1,16 +1,24 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-che-xanh.jpg",
+      "PackagePath": "staticwebassets\\images\\da-che-xanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-granite-vang.jpg",
+      "PackagePath": "staticwebassets\\images\\da-granite-vang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-granite.jpg",
+      "PackagePath": "staticwebassets\\images\\da-granite.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da57.png",
       "PackagePath": "staticwebassets\\images\\da57.png"
     },
     {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacat.png",
       "PackagePath": "staticwebassets\\images\\dacat.png"
-    },
-    {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dache.png",
-      "PackagePath": "staticwebassets\\images\\dache.png"
     },
     {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacmthach.png",
@@ -23,6 +31,18 @@
     {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\may-loc-nuoc.jpg",
       "PackagePath": "staticwebassets\\images\\may-loc-nuoc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-kim-dinh.jpg",
+      "PackagePath": "staticwebassets\\images\\vlt-xi-mang-kim-dinh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-trang.jpg",
+      "PackagePath": "staticwebassets\\images\\vlt-xi-mang-trang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-xuan-thanh.jpg",
+      "PackagePath": "staticwebassets\\images\\vlt-xi-mang-xuan-thanh.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BanVatLieuXayDung.Microsoft.AspNetCore.StaticWebAssets.props",

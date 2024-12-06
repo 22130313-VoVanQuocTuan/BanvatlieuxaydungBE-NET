@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\bin\Debug\net8.0\BanVatLieuXayDung.exe
 C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\bin\Debug\net8.0\BanVatLieuXayDung.dll
 C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\bin\Debug\net8.0\AutoMapper.dll
@@ -263,3 +264,5 @@ C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\bin\Debug
 C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\bin\Debug\net8.0\BanVatLieuXayDung.pdb
 C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\obj\Debug\net8.0\BanVatLieuXayDung.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\Ban_Vat_Lieu_Xay_Dung_BE_NET\AcountService\obj\Debug\net8.0\ref\BanVatLieuXayDung.dll
+=======
+>>>>>>> 38e0de663f8d3d45ad49671eaae8170001ab6d49

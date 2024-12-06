@@ -13,10 +13,5 @@ namespace AcountService.entity
         public string Note { get; set; }    
         public string UserId { get; set; }
         public User Users { get; set; }
-
-      
-      
-        
-
     }
 }

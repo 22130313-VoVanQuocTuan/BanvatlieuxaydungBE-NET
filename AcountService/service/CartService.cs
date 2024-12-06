@@ -28,6 +28,7 @@ namespace AcountService.service
         {
             try
             {
+
                 // Kiểm tra người dùng đã đăng nhập chưa
                 var userExists = await _context.Users.AnyAsync(u => u.Id == request.UserId);
                 if (!userExists)
@@ -80,7 +81,6 @@ namespace AcountService.service
                 else
                 {
 
-
                     // Nếu sản phẩm chưa có trong giỏ, tạo mới một bản ghi cho giỏ hàng
                     var newCartProduct = new CartProduct
                     {
@@ -103,7 +103,6 @@ namespace AcountService.service
                 // Ghi lại thông tin lỗi nếu cần thiết
                 throw new Exception("Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng: " + e.Message);
             }
-
         }
 
         //Xóa sản phẩm trong giỏ hàng
@@ -254,6 +253,7 @@ namespace AcountService.service
                 throw new Exception(e.Message);
             }
         }
+
         public async Task<CartResponse> GetCartSummaryAsync(string userId)
         {
             try
@@ -316,4 +316,5 @@ namespace AcountService.service
         }
     }
     }
+
 

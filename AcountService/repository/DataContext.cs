@@ -100,6 +100,8 @@ namespace AcountService.Repository
 
           
 
+          
+
             modelBuilder.Entity<OrderDetail>()
             .HasOne(cp => cp.Order)
             .WithMany(p => p.OrderDetails)
@@ -123,6 +125,11 @@ namespace AcountService.Repository
 
 
             modelBuilder.Entity<PromotionalProducts>()
+            .HasOne(cp => cp.Product)
+            .WithMany(p => p.PromotionalProducts)
+            .HasForeignKey(cp => cp.ProductId);
+
+            modelBuilder.Entity<PromotionalProducts>()
        .Property(p => p.DiscountPercentage)
        .HasPrecision(5, 2); // 5 chữ số tổng cộng, 2 chữ số thập phân
 
@@ -134,12 +141,14 @@ namespace AcountService.Repository
             modelBuilder.Entity<CartProduct>()
                 .Property(p => p.TotalPrice)
                 .HasColumnType("decimal(18,2)");
+
             modelBuilder.Entity<CartProduct>()
             .Property(p => p.discount_amount)
             .HasColumnType("decimal(10,2)");
 
             modelBuilder.Entity<Discount>()
                 .Property(p => p.Percent)
+
                 .HasColumnType("decimal(18,2)");
 
             modelBuilder.Entity<Order>()

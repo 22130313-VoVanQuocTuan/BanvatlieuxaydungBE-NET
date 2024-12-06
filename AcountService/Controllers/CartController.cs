@@ -121,5 +121,6 @@ namespace AcountService.Controllers
                 return StatusCode(500, new { status = 500, message = "Đã xảy ra lỗi không xác định", errorMessage = ex.Message });
             }
         }
+
     }
 }

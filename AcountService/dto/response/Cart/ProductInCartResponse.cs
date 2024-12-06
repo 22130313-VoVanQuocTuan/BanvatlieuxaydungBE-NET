@@ -14,7 +14,5 @@ namespace AcountService.dto.response.Cart
         public int Quantity { get; set; }  // Số lượng trong giỏ
         public decimal TotalPrice { get; set; }  // Tổng giá = Giá * Số lượng
         public decimal discount_amount { get; set; }
-
-
     }
 }

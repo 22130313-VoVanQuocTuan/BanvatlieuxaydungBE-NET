@@ -6,7 +6,7 @@ using BanVatLieuXayDung.dto.response.Order;
     {
         public class OrderResponse
         {
-        public int OrderId { get; set; }
+       public int OrderId { get; set; }
         public decimal TotalPrice { get; set; }
         public decimal TotalAmount { get; set; }
         public decimal shipping_fee { get; set; }
@@ -22,6 +22,5 @@ using BanVatLieuXayDung.dto.response.Order;
 
         public int Quantity { get; set; }
         public List<OrderDetailResponse> OrderDetailsRespone { get; set; } // Thông tin chi tiết đơn hàng
-
     }
     }

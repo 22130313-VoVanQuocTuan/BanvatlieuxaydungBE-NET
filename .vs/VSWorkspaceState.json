@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\AcountService",
-    "\\AcountService\\Controllers",
-    "\\AcountService\\Migrations"
+    "\\AcountService\\Controllers"
   ],
-  "SelectedNode": "\\AcountService\\Migrations\\20241119050354_UpdateCart.Designer.cs",
+  "SelectedNode": "\\AcountService\\Controllers\\PromotionalController.cs",
   "PreviewInSolutionExplorer": false
 }

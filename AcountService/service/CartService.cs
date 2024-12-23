@@ -1,11 +1,9 @@
 ﻿using AcountService.dto.request.cart;
 using AcountService.dto.response.Cart;
-using AcountService.dto.response.product;
 using AcountService.entity;
 using AcountService.Repository;
 using AutoMapper;
 using BanVatLieuXayDung.dto.response.Cart;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
@@ -152,6 +150,7 @@ namespace AcountService.service
             }
 
         }
+        //Cập nhật số lượng sản phẩm
         public async Task<string> UpdateQuantityInCart(UpdateQuantityInCartRequest request)
         {
             try
@@ -254,6 +253,7 @@ namespace AcountService.service
             }
         }
 
+        //Lấy các giá trị trong giỏ hàng
         public async Task<CartResponse> GetCartSummaryAsync(string userId)
         {
             try
@@ -282,7 +282,7 @@ namespace AcountService.service
                 decimal totalDiscount = cart.CartProducts.Sum(cp => cp.discount_amount) + cart.code_discount ;
 
                 // Tính tổng số lượng
-                int totalItems = cart.CartProducts.Sum(cp => cp.CartId = cart.CartId);
+                int totalItems = cart.CartProducts.Count(cp => cp.CartId == cart.CartId);
 
                 // Giả sử phí vận chuyển là 10% tổng giá trị đơn hàng, hoặc tối thiểu là 20
                 decimal shippingFee = Price * (10m / 100);
@@ -296,6 +296,15 @@ namespace AcountService.service
                 cart.discount_amount = totalDiscount;
                 cart.TotalPrice = totalprice; // Cộng phí vận chuyển và trừ giảm giá
                 cart.shipping_fee = shippingFee;
+
+                // nếu giá trị giảm gió nhỏ hơn không thì xóa mã giảm giá và chuyển giá trị về lại 0
+                if (cart.TotalPrice < 0)
+                {
+                    cart.TotalPrice = 0;
+                    cart.code = "";
+                   cart.code_discount = 0;
+
+                }
 
                 await _context.SaveChangesAsync();
 

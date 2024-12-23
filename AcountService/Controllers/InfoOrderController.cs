@@ -28,15 +28,15 @@ namespace BanVatLieuXayDung.Controllers
                     var errors = ModelState.Values.SelectMany(v => v.Errors)
                                                    .Select(e => e.ErrorMessage)
                                                    .ToList();
-                    return BadRequest(errors);  // Trả về lỗi dưới dạng BadRequest
+                    return BadRequest(new {message = errors});  // Trả về lỗi dưới dạng BadRequest
                 }
                 var response = await _infoUserShipping.UpdateInfoShipping(request); 
-                return Ok(response);
+                return Ok(new {status =200, message = response});
             }
             catch (Exception ex)
             {
                 // Xử lý lỗi
-                return StatusCode(500, "Đã xảy ra lỗi khi thêm thông tin vận chuyển. Chi tiết: " + ex.Message);
+                return BadRequest(new { message = ex.Message });
             }
         }
         [HttpGet("userId")]
@@ -49,7 +49,7 @@ namespace BanVatLieuXayDung.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new {message = ex.Message});
             }
         }
     }

@@ -103,7 +103,6 @@ namespace AcountService.Controllers
 
         // Lấy TỔNG TIỀN TRONG GIỎ
         [HttpGet ("{userId}")]
-      //  [Authorize(Policy = "UserOnly")]
         public async Task<IActionResult> GetCartSummaryAsync(string userId)
         {
             try

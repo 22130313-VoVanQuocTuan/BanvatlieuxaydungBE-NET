@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catvang.png",
+      "PackagePath": "staticwebassets\\images\\catvang.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catxayto.png",
+      "PackagePath": "staticwebassets\\images\\catxayto.png"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-che-xanh.jpg",
       "PackagePath": "staticwebassets\\images\\da-che-xanh.jpg"
     },
@@ -13,24 +21,12 @@
       "PackagePath": "staticwebassets\\images\\da-granite.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da57.png",
-      "PackagePath": "staticwebassets\\images\\da57.png"
-    },
-    {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacat.png",
-      "PackagePath": "staticwebassets\\images\\dacat.png"
-    },
-    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacmthach.png",
       "PackagePath": "staticwebassets\\images\\dacmthach.png"
     },
     {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dahoc.png",
       "PackagePath": "staticwebassets\\images\\dahoc.png"
-    },
-    {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\may-loc-nuoc.jpg",
-      "PackagePath": "staticwebassets\\images\\may-loc-nuoc.jpg"
     },
     {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-kim-dinh.jpg",

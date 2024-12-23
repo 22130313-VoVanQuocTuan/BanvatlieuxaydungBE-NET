@@ -144,7 +144,7 @@
               "RelativeDocumentMoniker": ".gitignore",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\.gitignore",
               "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-06T11:18:51.995Z",
               "EditorCaption": ""
@@ -159,8 +159,7 @@
               "RelativeToolTip": "AcountService\\appsettings.json",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-06T10:20:47.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T10:20:47.172Z"
             },
             {
               "$type": "Document",

@@ -1,9 +1,6 @@
-﻿using AcountService.entity;
-using AcountService.Repository;
-using BanVatLieuXayDung.dto.request.payment;
+﻿using AcountService.Repository;
 using BanVatLieuXayDung.Library;
 using System.Net;
-using System.Web;
 
 namespace BanVatLieuXayDung.service
 {

@@ -1,13 +1,11 @@
 ﻿using AcountService.dto.request.accountservice;
 using AcountService.dto.response.account;
-using AcountService.dto.response.product;
 using AcountService.entity;
 using AcountService.Repository;
 using AutoMapper;
 using BanVatLieuXayDung.dto.response.account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
 
 namespace AcountService.service
 {

@@ -22,20 +22,42 @@ namespace AcountService.Controllers
         {
             try
             {
+                // Kiểm tra tính hợp lệ của dữ liệu
+                if (!ModelState.IsValid)
+                {
+                    // Trả về danh sách lỗi
+                    var errors = ModelState.Values
+                        .SelectMany(v => v.Errors)
+                        .Select(e => e.ErrorMessage)
+                        .ToList();
+                    return BadRequest(new
+                    {
+                        status = 400,
+                        message = "Dữ liệu không hợp lệ",
+                        error = errors
+                    });
+                
+            }
                 // Gọi phương thức tạo user từ service
                 var userResponse = await _userService.CreateUserAsync(userCreateRequest);
                 return Ok(new
                 {
                     status = 200,
-                    emailVerificationCode = "Chứ xác thực",
+                    emailVerificationCode = "Chưa xác thực",
                     result = userResponse
                 }); // Trả về HTTP 200 OK nếu thành công
             }
             catch (Exception ex)
             {
-                // Trả về lỗi chung với mã HTTP 400
-                return BadRequest(new { message = ex.Message });
+                // Trả về lỗi chung với mã HTTP 500
+                return StatusCode(500, new
+                {
+                    status = 500,
+                    message = "Đã xảy ra lỗi trong quá trình xử lý",
+                    error = ex.Message
+                });
             }
+        
         }
 
         // LẤY DANH SÁCH TẤT CẢ USER
@@ -50,7 +72,13 @@ namespace AcountService.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { message = ex.Message });
+                // Trả về lỗi chung với mã HTTP 500
+                return StatusCode(500, new
+                {
+                    status = 500,
+                    message = "Đã xảy ra lỗi trong quá trình xử lý",
+                    error = ex.Message
+                });
             }
         }
 
@@ -66,7 +94,13 @@ namespace AcountService.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { status = 500, message = ex.Message });
+                // Trả về lỗi chung với mã HTTP 500
+                return StatusCode(500, new
+                {
+                    status = 500,
+                    message = "Đã xảy ra lỗi trong quá trình xử lý",
+                    error = ex.Message
+                });
             }
         }
 
@@ -75,6 +109,17 @@ namespace AcountService.Controllers
         [Authorize(Policy = "UserOnly")]
         public async Task<IActionResult> UpdateUser(string id, [FromBody] UserUpdateRequest request)
         {
+            if (!ModelState.IsValid)
+            {
+                // Trả về lỗi validation
+                return BadRequest(new
+                {
+                    status = 400,
+                    message = "Dữ liệu không hợp lệ.",
+                    errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage)
+                });
+            }
+
             try
             {
                 var result = await _userService.UpdateUserAsync(id, request);
@@ -82,7 +127,13 @@ namespace AcountService.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { status = 500, message = ex.Message });
+                // Trả về lỗi chung với mã HTTP 500
+                return StatusCode(500, new
+                {
+                    status = 500,
+                    message = "Đã xảy ra lỗi trong quá trình xử lý",
+                    error = ex.Message
+                });
             }
         }
 
@@ -98,7 +149,13 @@ namespace AcountService.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { status = 500, message = ex.Message });
+                // Trả về lỗi chung với mã HTTP 500
+                return StatusCode(500, new
+                {
+                    status = 500,
+                    message = "Đã xảy ra lỗi trong quá trình xử lý",
+                    error = ex.Message
+                });
             }
         }
 
@@ -114,7 +171,13 @@ namespace AcountService.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { status = 500, message = ex.Message });
+                // Trả về lỗi chung với mã HTTP 500
+                return StatusCode(500, new
+                {
+                    status = 500,
+                    message = "Đã xảy ra lỗi trong quá trình xử lý",
+                    error = ex.Message
+                });
             }
         }
     }

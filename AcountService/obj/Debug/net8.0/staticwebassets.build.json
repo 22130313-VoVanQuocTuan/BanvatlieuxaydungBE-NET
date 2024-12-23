@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U+Zd6yD3gLRFOd+YzAVfchmVVSMxylEHp/R63/eKtow=",
+  "Hash": "AP5N99e572A80O4WaGezRrqgmWhfFmY4v6/ulZW6Sdo=",
   "Source": "BanVatLieuXayDung",
   "BasePath": "_content/BanVatLieuXayDung",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da57.png",
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catvang.png",
       "SourceId": "BanVatLieuXayDung",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\",
       "BasePath": "_content/BanVatLieuXayDung",
-      "RelativePath": "images/da57.png",
+      "RelativePath": "images/catvang.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\da57.png"
+      "OriginalItemSpec": "wwwroot\\images\\catvang.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacat.png",
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catxayto.png",
       "SourceId": "BanVatLieuXayDung",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\",
       "BasePath": "_content/BanVatLieuXayDung",
-      "RelativePath": "images/dacat.png",
+      "RelativePath": "images/catxayto.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\dacat.png"
+      "OriginalItemSpec": "wwwroot\\images\\catxayto.png"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-che-xanh.jpg",
@@ -148,25 +148,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dahoc.png"
-    },
-    {
-      "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\may-loc-nuoc.jpg",
-      "SourceId": "BanVatLieuXayDung",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\",
-      "BasePath": "_content/BanVatLieuXayDung",
-      "RelativePath": "images/may-loc-nuoc.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\may-loc-nuoc.jpg"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-kim-dinh.jpg",

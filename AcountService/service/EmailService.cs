@@ -4,18 +4,11 @@ using Microsoft.AspNetCore.Identity;
 using AcountService.entity;
 using Microsoft.EntityFrameworkCore;
 using AcountService.Repository;
-using AcountService.dto.response;
 using AutoMapper;
 using AcountService.dto.request.email;
 using BanVatLieuXayDung.entity;
-using Microsoft.AspNetCore.Identity.Data;
-using BanVatLieuXayDung.dto.request.email;
 using ForgotPasswordRequest = BanVatLieuXayDung.dto.request.email.ForgotPasswordRequest;
-using Microsoft.AspNetCore.Mvc;
 using ResetPasswordRequest = BanVatLieuXayDung.dto.request.email.ResetPasswordRequest;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using NuGet.Common;
-using AcountService.dto.request.accountservice;
 using System.Web;
 
 namespace AcountService.service
@@ -151,7 +144,7 @@ namespace AcountService.service
             {
                 // Thay vì ném exception, có thể trả về thông báo lỗi rõ ràng
                 // Tránh tiết lộ thông tin người dùng
-                return;
+                throw new Exception("email không tồn tại");
             }
 
             // Kiểm tra xem đã có token reset cho user này chưa

@@ -46,12 +46,12 @@ namespace AcountService.Controllers
 
                 // Gửi email đặt lại mật khẩu với token
                 await _emailService.SendPasswordResetEmailAsync(request);
-
-                return Ok("Email đặt lại mật khẩu đã được gửi.");
+                return Ok(new { message = "Email đặt lại mật khẩu đã được gửi tới bạn." });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message); // Trả về lỗi nếu email không tồn tại hoặc có lỗi trong quá trình gửi
+                // Đảm bảo trả về lỗi với trường message
+                return BadRequest(new { message = ex.Message });
             }
         }
 
@@ -59,7 +59,22 @@ namespace AcountService.Controllers
         [HttpPost("reset-password")]
         public async Task<IActionResult> ResetPasswordAsync([FromBody] ResetPasswordRequest request)
         {
+            // Kiểm tra tính hợp lệ của dữ liệu
+            if (!ModelState.IsValid)
+            {
+                // Trả về danh sách lỗi
+                var errors = ModelState.Values
+                    .SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
 
+                return BadRequest(new
+                {
+                    status = 400,
+                    message = "Dữ liệu không hợp lệ",
+                    error = errors
+                });
+            }
             try
             {
                 // Đặt lại mật khẩu với token và mật khẩu mới
@@ -68,7 +83,12 @@ namespace AcountService.Controllers
             }
             catch (Exception e)
             {
-                return BadRequest( new { status = 500, e.Message });
+                return BadRequest(new
+                {
+                    status = 500,
+                    message = "Có lỗi xảy ra, vui lòng thử lại",
+                    error = e.Message
+                });
             }
         }
     }

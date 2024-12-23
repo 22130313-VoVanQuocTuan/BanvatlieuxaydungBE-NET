@@ -1,6 +1,4 @@
 ﻿using AcountService.AppException;
-using AcountService.service;
-using Azure.Core;
 using BanVatLieuXayDung.dto.request.Promotional;
 using BanVatLieuXayDung.service;
 using Microsoft.AspNetCore.Authorization;

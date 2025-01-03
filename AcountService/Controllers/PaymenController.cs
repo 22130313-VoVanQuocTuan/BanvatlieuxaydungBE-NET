@@ -1,105 +1,57 @@
-﻿using AcountService.entity;
-using AcountService.Repository;
+﻿using AcountService.Repository;
 using BanVatLieuXayDung.dto.request.payment;
-using BanVatLieuXayDung.dto.response.payment;
-using BanVatLieuXayDung.Library;
-using BanVatLieuXayDung.service;
+using BanVatLieuXayDung.entity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Linq;
+using Microsoft.Extensions.Options;
+using System.Data.Common;
 
-namespace BanVatLieuXayDung.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class VNPayController : ControllerBase
 {
-    [Area("VNPayAPI")]
-    [Route("api/vnpay")]
-    [ApiController]
-    public class PaymentController : ControllerBase
+    private readonly VNPaySettings _vnPaySettings;
+    private readonly DataContext _context;
+
+    public VNPayController(IOptions<VNPaySettings> vnPaySettings)
     {
-        private readonly string _url;
-        private readonly string _returnUrl;
-        private readonly string _tmnCode;
-        private readonly string _hashSecret;
-        private readonly PaymentService _vnPayService;
-        private readonly DataContext _context;
-        private readonly ILogger<PaymentController> _logger;
+        _vnPaySettings = vnPaySettings.Value;
+    }
 
-        public PaymentController(IConfiguration configuration, PaymentService vnPayService, DataContext context, ILogger<PaymentController> logger)
+    [HttpPost("payment")]
+    [Authorize(Policy = "UserOnly")]
+    public IActionResult CreatePayment([FromBody] PaymentRequest request)
+    {
+        if (request.Amount <= 0)
         {
-            _url = configuration["VNPay:PaymentUrl"];
-            _returnUrl = configuration["VNPay:ReturnUrl"];
-            _tmnCode = configuration["VNPay:TmnCode"];
-            _hashSecret = configuration["VNPay:HashSecret"];
-            _vnPayService = vnPayService;
-            _context = context;
-            _logger = logger;
+            return BadRequest(new { message = "Số tiền không nhỏ hơn 0" });
         }
 
-        [HttpPost("payment")]
-        public IActionResult Payment([FromQuery] string amount, [FromQuery] string infor, [FromQuery] string orderinfor)
+        // Kiểm tra thoogn tin
+        if (string.IsNullOrEmpty(request.Orderinfor))
         {
-            try
-            {
-                if (string.IsNullOrEmpty(amount) || string.IsNullOrEmpty(infor) || string.IsNullOrEmpty(orderinfor))
-                {
-                    return BadRequest(new { message = "Missing required parameters" });
-                }
-
-                string paymentUrl = _vnPayService.GeneratePaymentUrl(amount, infor, orderinfor);
-                return Ok(new { paymentUrl });
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error generating payment URL");
-                return BadRequest(new { message = "Error generating payment URL", error = ex.Message });
-            }
+            return BadRequest(new { message = "Thiếu thông tin đơn hàng." });
         }
 
-        [HttpPost("paymentconfirm")]
-        public IActionResult PaymentConfirm([FromQuery] string vnp_TxnRef, [FromQuery] string vnp_OrderInfo,
-                                    [FromQuery] string vnp_TransactionNo, [FromQuery] string vnp_ResponseCode,
-                                    [FromQuery] string vnp_SecureHash)
-        {
-            try
-            {
-                string vnp_HashSecret = "02TSIRUQB162HG88ANX5M30QUEW1LX1B"; // Bạn cần lấy key này từ cấu hình VNPay của bạn
 
-                // Xây dựng chuỗi dữ liệu cần ký
-                string dataToSign = $"vnp_TxnRef={vnp_TxnRef}&vnp_OrderInfo={vnp_OrderInfo}&vnp_TransactionNo={vnp_TransactionNo}&vnp_ResponseCode={vnp_ResponseCode}";
 
-                // In ra chuỗi cần ký để debug
-                Console.WriteLine($"Data to Sign: {dataToSign}");
+        var vnpay = new VnPayLibrary();
+        vnpay.AddRequestData("vnp_Version", "2.0.0");
+        vnpay.AddRequestData("vnp_Command", "pay");
+        vnpay.AddRequestData("vnp_TmnCode", _vnPaySettings.TmnCode);
+        vnpay.AddRequestData("vnp_Amount", (request.Amount * 100).ToString());
+        vnpay.AddRequestData("vnp_CurrCode", "VND");
+        vnpay.AddRequestData("vnp_IpAddr", HttpContext.Connection.RemoteIpAddress?.ToString());
+        vnpay.AddRequestData("vnp_TxnRef", DateTime.Now.Ticks.ToString());
+        vnpay.AddRequestData("vnp_OrderInfo", request.Orderinfor);
+        vnpay.AddRequestData("vnp_OrderType", "your_category_code_here");
+        vnpay.AddRequestData("vnp_Locale", "vn");
+        vnpay.AddRequestData("vnp_ReturnUrl", _vnPaySettings.ReturnUrl);
+        vnpay.AddRequestData("vnp_ExpireDate", DateTime.Now.AddMinutes(15).ToString("yyyyMMddHHmmss"));
+        vnpay.AddRequestData("vnp_CreateDate", DateTime.Now.ToString("yyyyMMddHHmmss"));
 
-                // Tính toán chữ ký
-                string myChecksum = VnPayLibrary.HmacSHA512(vnp_HashSecret, dataToSign);
-
-                // In ra chữ ký tính toán để so sánh
-                Console.WriteLine($"My Checksum: {myChecksum}");
-                Console.WriteLine($"Received Secure Hash: {vnp_SecureHash}");
-
-                // So sánh chữ ký
-                if (myChecksum.Equals(vnp_SecureHash, StringComparison.OrdinalIgnoreCase))
-                {
-                    // Chữ ký hợp lệ, thực hiện các xử lý thanh toán
-                    var order = _context.Orders.FirstOrDefault(o => o.TrackingNumber == vnp_TxnRef);
-                    if (order != null)
-                    {
-                        order.Status = "Paid";
-                        _context.SaveChanges();
-                    }
-                    return Ok(new { message = "Payment successful" });
-                }
-                else
-                {
-                    return Unauthorized(new { message = "Invalid signature" });
-                }
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
-        }
+        string paymentUrl = vnpay.CreateRequestUrl(_vnPaySettings.PaymentUrl, _vnPaySettings.HashSecret);
+        return Ok(new { paymentUrl });
     }
 }
+

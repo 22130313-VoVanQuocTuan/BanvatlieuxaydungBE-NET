@@ -1,5 +1,6 @@
 ﻿using AcountService.dto.request.Order;
 using AcountService.service;
+using BanVatLieuXayDung.dto.request.Order;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -113,6 +114,69 @@ namespace AcountService.Controllers
                 return BadRequest(new { status = 500, ex.Message });
             }
         }
+
+
+        //Lấy danh sách đơn hàng
+        [HttpGet("order-user/{userId}")]
+      
+        public async Task<IActionResult> getOrderByUser(string userId)
+        {
+            try
+            {
+                // Lấy user từ Claims
+                var results = await _orderService.getOrderByUser(userId);
+                return Ok(new { status = 200, message = results });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { status = 500, ex.Message });
+            }
+        }
+
+        //Cập nhật trạng thái hóa đơn
+
+        [HttpPut("{orderId}/status")]
+        public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] UpdateStatusRequest request)
+        {
+            var result = await _orderService.UpdateOrderStatusAsync(orderId, request.Status);
+            if (!result)
+            {
+                return NotFound(new { message = "Order not found" });
+            }
+
+            return Ok(new { message = "Order status updated" });
+        }
+
+        //Cập nhật trạng thái thánh toán
+
+        [HttpPut("{orderId}/payment-status")]
+        public async Task<IActionResult> UpdatePaymentStatus(int orderId, [FromBody] UpdateStatusRequest request)
+        {
+            var result = await _orderService.UpdatePaymentStatusAsync(orderId, request.Status);
+            if (!result)
+            {
+                return NotFound(new { message = "Order not found" });
+            }
+
+            return Ok(new { message = "Payment status updated" });
+        }
+
+        //Cập nhật trạng thái thanh toán khi thanh toán với VNPay
+
+        [HttpPut("{trackingNumber}/VNPay-status")]
+        public async Task<IActionResult> UpdatePaymentStatusVNPay(string trackingNumber)
+        {
+            var result = await _orderService.UpdatePaymentStatusVNPayAsync( trackingNumber);
+            if (!result)
+            {
+                return NotFound(new { message = "Hóa đơn không tồn tại" });
+            }
+
+            return Ok(new { message = "Cập nhật thành công" });
+        }
+
+
+
     }
 }
 

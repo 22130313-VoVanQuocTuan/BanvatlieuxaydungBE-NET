@@ -1,5 +1,6 @@
 ﻿using BanVatLieuXayDung.dto.request.rating;
 using BanVatLieuXayDung.service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BanVatLieuXayDung.Controllers
@@ -16,6 +17,7 @@ namespace BanVatLieuXayDung.Controllers
         }
 
         [HttpPost]
+        [Authorize (Policy ="UserOnly")]
         public async Task<IActionResult> CreateReview([FromBody] ReviewRequest request)
         {
             try
@@ -29,6 +31,7 @@ namespace BanVatLieuXayDung.Controllers
             }
         }
         [HttpDelete("{reviewId}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> DeleteReview(int reviewId)
         {
             try
@@ -42,6 +45,7 @@ namespace BanVatLieuXayDung.Controllers
             }
         }
         [HttpGet]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> GetAllReview()
         {
             try

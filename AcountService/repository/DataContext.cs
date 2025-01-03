@@ -170,9 +170,7 @@ namespace AcountService.Repository
                 .Property(od => od.Discount)
                .HasColumnType("decimal(10,2)");
 
-            modelBuilder.Entity<Payment>()
-                .Property(p => p.Amount)
-                .HasColumnType("decimal(18,2)");
+          
 
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)

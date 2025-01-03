@@ -89,8 +89,7 @@ namespace AcountService.service
             }
             catch (Exception ex)
             {
-                // Có thể ném lại ngoại lệ gốc thay vì thay đổi thông báo lỗi
-                throw new Exception(ex.Message); // Hoặc giữ nguyên ex
+               throw new Exception(ex.Message); 
             }
 
 
@@ -107,7 +106,7 @@ namespace AcountService.service
                 var user = await _userManager.FindByIdAsync(id);
                 if (user == null)
                 {
-                    throw new Exception("User not found");
+                    throw new Exception("tài khoản không tồn tại");
                 }
 
                 // Xóa người dùng
@@ -120,11 +119,11 @@ namespace AcountService.service
                 }
                  
 
-                return "User has been deleted";
+                return "Xóa thành công";
             }
             catch (Exception ex)
             {
-                throw new Exception("Error occurred while deleting user: " + ex.Message);
+                throw new Exception("Có lỗi khi xóa tài khoản: " + ex.Message);
             }
         }
 

@@ -36,7 +36,7 @@ namespace AcountService.service
             {
                 Port = int.Parse(smtpSettings["Port"]),
                 Credentials = new NetworkCredential(smtpSettings["Username"], smtpSettings["Password"]),
-                EnableSsl = true
+                EnableSsl = true  // bật ssl để kết nối tới SMTP
             };
 
             var mailMessage = new MailMessage
@@ -142,7 +142,7 @@ namespace AcountService.service
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
             if (user == null)
             {
-                // Thay vì ném exception, có thể trả về thông báo lỗi rõ ràng
+           
                 // Tránh tiết lộ thông tin người dùng
                 throw new Exception("email không tồn tại");
             }

@@ -224,6 +224,102 @@ namespace AcountService.service
 
             return listUser; // Trả về danh sách 5 người dùng có tổng chi tiêu cao nhất
         }
+
+
+        //Lấy danh sách đơn hàng của người dùng
+           public async Task<List<OrderNewResponse>> getOrderByUser(string userId)
+        {
+
+            // Lấy ra danh sách đơn hàng sắp xếp theo ngày tạo giảm dần
+            var orders = await _context.Orders
+                                       .Where(u=>u.UserId == userId)
+                                       .OrderByDescending(o => o.OrderDate) // Sắp xếp theo ngày tạo giảm dần
+                                       .ToListAsync();                       // Lấy toàn bộ danh sách đơn hàng
+
+            // Chuyển đổi tất cả đơn hàng thành OrderNewResponse
+            var response = orders.Select(o => new OrderNewResponse
+            {
+                OrderId = o.OrderId,
+                OrderStatus = o.Status,
+                PaymentStatus = o.payment_status, // Đảm bảo đúng tên thuộc tính (có thể là PaymentStatus thay vì payment_status)
+                Price = o.TotalPrice,
+                Address= o.shipping_address,
+                OrderDate = o.OrderDate
+                
+            }).ToList();
+
+            return response; // Trả về danh sách OrderNewResponse
+        }
+
+        // Cập nhật trạng thái đơn hàng
+        public async Task<bool> UpdateOrderStatusAsync(int orderId, string newStatus)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderId == orderId);
+            if (order == null)
+            {
+                return false; // Đơn hàng không tồn tại
+            }
+
+            order.Status = newStatus;
+            _context.Orders.Update(order);
+            await _context.SaveChangesAsync();
+
+            return true; // Cập nhật trạng thái đơn hàng thành công
+        }
+
+        // Cập nhật trạng thái thanh toán
+        public async Task<bool> UpdatePaymentStatusAsync(int orderId, string newPaymentStatus)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderId == orderId);
+            if (order == null)
+            {
+                return false; // Đơn hàng không tồn tại
+            }
+
+            order.payment_status = newPaymentStatus;
+            _context.Orders.Update(order);
+            await _context.SaveChangesAsync();
+
+            return true; // Cập nhật trạng thái thanh toán thành công
+        }
+        // Cập nhật trạng thái thanh toán với VNPay
+        public async Task<bool> UpdatePaymentStatusVNPayAsync(string trackingNumber)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(o => o.TrackingNumber == trackingNumber);
+            if (order == null)
+            {
+                return false; // Đơn hàng không tồn tại
+            }
+            // Lấy giỏ hàng của người dùng
+            var cart = await _context.Carts
+                  .Include(c => c.CartProducts)  // Tải CartProducts
+                  .FirstOrDefaultAsync(o => o.UserId == order.UserId);
+            if (cart == null)
+            {
+                throw new Exception("Giỏ hàng không tồn tại");
+            }
+            // Xóa các sản phẩm trong giỏ hàng nếu có
+            if (cart.CartProducts.Any())
+            {
+                _context.CartProducts.RemoveRange(cart.CartProducts);
+                await _context.SaveChangesAsync(); // Lưu thay đổi tại đây
+            }
+            // Cập nhật các thuộc tính còn lại của giỏ hàng
+            cart.shipping_fee = 0;
+            cart.code = "";
+            cart.TotalPrice = 0;
+            cart.code_discount = 0;
+            cart.discount_amount = 0;
+            cart.promotion_discount = 0;
+            await _context.SaveChangesAsync();
+
+            order.payment_status = "Đã thanh toán";
+            _context.Orders.Update(order);
+            await _context.SaveChangesAsync();
+
+            return true; // Cập nhật trạng thái thanh toán thành công
+        }
+
     }
 }
 

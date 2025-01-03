@@ -334,12 +334,86 @@
   },
   {
     "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "UpdatePaymentStatus",
+    "RelativePath": "api/Order/{orderId}/payment-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.Order.UpdateStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "UpdateOrderStatus",
+    "RelativePath": "api/Order/{orderId}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.Order.UpdateStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "UpdatePaymentStatusVNPay",
+    "RelativePath": "api/Order/{trackingNumber}/VNPay-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trackingNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
     "Method": "getOrderNew",
     "RelativePath": "api/Order/order-new",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcountService.Controllers.OrderController",
+    "Method": "getOrderByUser",
+    "RelativePath": "api/Order/order-user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -840,63 +914,17 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BanVatLieuXayDung.Controllers.PaymentController",
-    "Method": "Payment",
-    "RelativePath": "api/vnpay/payment",
+    "ContainingType": "VNPayController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/VNPay/payment",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "amount",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "infor",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "orderinfor",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BanVatLieuXayDung.Controllers.PaymentController",
-    "Method": "PaymentConfirm",
-    "RelativePath": "api/vnpay/paymentconfirm",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vnp_TxnRef",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "vnp_OrderInfo",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "vnp_TransactionNo",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "vnp_ResponseCode",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "vnp_SecureHash",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "BanVatLieuXayDung.dto.request.payment.PaymentRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

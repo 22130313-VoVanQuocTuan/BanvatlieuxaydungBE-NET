@@ -57,7 +57,7 @@ namespace AcountService.Controllers
 
         //Lấy danh sách mã giảm giá
         [HttpGet]
-        [Authorize(Policy = "AdminOnly")]
+       
         public async Task<IActionResult> getAllDiscountAsync()
         {
             try

@@ -1,6 +1,258 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\2 inch, áp suất PN20 Bar.png",
+      "PackagePath": "staticwebassets\\images\\2 inch, áp suất PN20 Bar.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Bồn nước inox.png",
+      "PackagePath": "staticwebassets\\images\\Bồn nước inox.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Co 90 độ trơn phi 21 Nhựa Bình Minh.png",
+      "PackagePath": "staticwebassets\\images\\Co 90 độ trơn phi 21 Nhựa Bình Minh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Co 90⁰ Ø6mm dùng cho máy lọc nước RO.png",
+      "PackagePath": "staticwebassets\\images\\Co 90⁰ Ø6mm dùng cho máy lọc nước RO.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Co giảm PVC phi 60-42.png",
+      "PackagePath": "staticwebassets\\images\\Co giảm PVC phi 60-42.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Khớp nối sống ( Rắc Co nhựa ) Ø27, Nhựa PVC-U Bình Minh.png",
+      "PackagePath": "staticwebassets\\images\\Khớp nối sống ( Rắc Co nhựa ) Ø27, Nhựa PVC-U Bình Minh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM CANA ĐỒNG PHẲNG.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM CANA ĐỒNG PHẲNG.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM DẠNG VẢY CÁ.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM DẠNG VẢY CÁ.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM PHỦ ĐÁ DẠNG TỔ ONG – MÀU XANH RÊU.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM PHỦ ĐÁ DẠNG TỔ ONG – MÀU XANH RÊU.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM PHỦ ĐÁ DẠNG VẢY RỒNG – MÀU XANH DƯƠNG.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM PHỦ ĐÁ DẠNG VẢY RỒNG – MÀU XANH DƯƠNG.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM PHỦ ĐÁ DẠNG ĐỒNG PHẲNG – MÀU XÁM.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM PHỦ ĐÁ DẠNG ĐỒNG PHẲNG – MÀU XÁM.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM PHỦ ĐÁ TEGOLA CAO CẤP NHẬP KHẨU Ý – DẠNG VẢY CÁ.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM PHỦ ĐÁ TEGOLA CAO CẤP NHẬP KHẨU Ý – DẠNG VẢY CÁ.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM PHỦ ĐÁ TEGOLA CAO CẤP NHẬP KHẨU Ý-Đấ tầng.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM PHỦ ĐÁ TEGOLA CAO CẤP NHẬP KHẨU Ý-Đấ tầng.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI BITUM PHỦ ĐÁ TEGOLA CAO CẤP NHẬP KHẨU Ý.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI BITUM PHỦ ĐÁ TEGOLA CAO CẤP NHẬP KHẨU Ý.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NGÓI TRÁNG MEN HAI SÓNG PRIME WAVE S 1214 MÀU XANH RÊU.png",
+      "PackagePath": "staticwebassets\\images\\NGÓI TRÁNG MEN HAI SÓNG PRIME WAVE S 1214 MÀU XANH RÊU.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\NgoiThaiSCGDangPhang.png",
+      "PackagePath": "staticwebassets\\images\\NgoiThaiSCGDangPhang.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói Thái SCG Elite Series Dạng Sóng Classic-Nâu Socola.png",
+      "PackagePath": "staticwebassets\\images\\Ngói Thái SCG Elite Series Dạng Sóng Classic-Nâu Socola.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói Thái SCG Elite Series Dạng Sóng Classic-Nâu.png",
+      "PackagePath": "staticwebassets\\images\\Ngói Thái SCG Elite Series Dạng Sóng Classic-Nâu.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói Thái SCG Elite Series Dạng Sóng Classic-Xám.png",
+      "PackagePath": "staticwebassets\\images\\Ngói Thái SCG Elite Series Dạng Sóng Classic-Xám.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói Thái SCG Elite Series Dạng Sóng Gold.png",
+      "PackagePath": "staticwebassets\\images\\Ngói Thái SCG Elite Series Dạng Sóng Gold.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói Thái SCG dạng sóng M16.png",
+      "PackagePath": "staticwebassets\\images\\Ngói Thái SCG dạng sóng M16.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói chạc ba chữ Y.png",
+      "PackagePath": "staticwebassets\\images\\Ngói chạc ba chữ Y.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói cuối nóc.png",
+      "PackagePath": "staticwebassets\\images\\Ngói cuối nóc.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói cuối rìa.png",
+      "PackagePath": "staticwebassets\\images\\Ngói cuối rìa.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ngói nóc.png",
+      "PackagePath": "staticwebassets\\images\\Ngói nóc.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Nắp khóa, bịt đầu ống loại ren ngoài Ø21 nhựa PVC BÌNH MINH, giá tính theo cái.png",
+      "PackagePath": "staticwebassets\\images\\Nắp khóa, bịt đầu ống loại ren ngoài Ø21 nhựa PVC BÌNH MINH, giá tính theo cái.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Nắp khóa, bịt đầu ống Ø90 (loại đầu bằng, không ren) nhựa PVC-U Tiền Phong.png",
+      "PackagePath": "staticwebassets\\images\\Nắp khóa, bịt đầu ống Ø90 (loại đầu bằng, không ren) nhựa PVC-U Tiền Phong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Nối ren trong Ø21 D cho ống nhựa cứng PVCU Bình Minh.png",
+      "PackagePath": "staticwebassets\\images\\Nối ren trong Ø21 D cho ống nhựa cứng PVCU Bình Minh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Nối rút trơn 90 x 42 M , nhựa PVC-U Bình Minh.png",
+      "PackagePath": "staticwebassets\\images\\Nối rút trơn 90 x 42 M , nhựa PVC-U Bình Minh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Nối ống chữ T nhựa PVC Bình Minh một đầu ren trong phi 21.png",
+      "PackagePath": "staticwebassets\\images\\Nối ống chữ T nhựa PVC Bình Minh một đầu ren trong phi 21.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Nối ống dạng T Ø49 D nhựa PVC BÌNH MINH, áp suất PN12 bar.png",
+      "PackagePath": "staticwebassets\\images\\Nối ống dạng T Ø49 D nhựa PVC BÌNH MINH, áp suất PN12 bar.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Phao cơ inox 304 27mm Rossa.png",
+      "PackagePath": "staticwebassets\\images\\Phao cơ inox 304 27mm Rossa.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Phụ gia chống thấm BS-8430 Latex.png",
+      "PackagePath": "staticwebassets\\images\\Phụ gia chống thấm BS-8430 Latex.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\SƠN LÓT LẤP TIM LÀM MỊN GỖ LOTUS SANDING SEALER.png",
+      "PackagePath": "staticwebassets\\images\\SƠN LÓT LẤP TIM LÀM MỊN GỖ LOTUS SANDING SEALER.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\SƠN NƯỚC NGOẠI THẤT SUPERTECH PRO EXTERIOR.png",
+      "PackagePath": "staticwebassets\\images\\SƠN NƯỚC NGOẠI THẤT SUPERTECH PRO EXTERIOR.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Lót Ngoại Thất Siêu Cao Cấp Dulux Weathershield Chống Kiềm.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Lót Ngoại Thất Siêu Cao Cấp Dulux Weathershield Chống Kiềm.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Lót Ngoại Thất Siêu Cao Cấp Dulux Weathershield Powersealer.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Lót Ngoại Thất Siêu Cao Cấp Dulux Weathershield Powersealer.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Ngoại Thất Dulux Inspire Sắc Màu Bền Đẹp Bề Mặt.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Ngoại Thất Dulux Inspire Sắc Màu Bền Đẹp Bề Mặt.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất Cao Cấp Dulux Easyclean Lau Chùi Hiệu Quả Bề Mặt Bóng.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất Cao Cấp Dulux Easyclean Lau Chùi Hiệu Quả Bề Mặt Bóng.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất DULUX AMBIANCE 5 IN1 PEARL GLOW Bóng mờ.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất DULUX AMBIANCE 5 IN1 PEARL GLOW Bóng mờ.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất Dulux Ambiance 5in1 Superflexx.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất Dulux Ambiance 5in1 Superflexx.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất Dulux EasyClean Chống Bám Bẩn Kháng Virus.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất Dulux EasyClean Chống Bám Bẩn Kháng Virus.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất Dulux EasyClean Chống Bám Bẩn.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất Dulux EasyClean Chống Bám Bẩn.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất Dulux Inspire Sắc Màu Bền Đẹp Bề Mặt Bóng.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất Dulux Inspire Sắc Màu Bền Đẹp Bề Mặt Bóng.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Nội Thất Dulux Inspire Sắc Màu Bền Đẹp Bề Mặt Mờ.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Nội Thất Dulux Inspire Sắc Màu Bền Đẹp Bề Mặt Mờ.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn Sắt Giả Gỗ Lotus Meta Coat Primer – 1 Sơn Lót + 1 Sơn Phủ.png",
+      "PackagePath": "staticwebassets\\images\\Sơn Sắt Giả Gỗ Lotus Meta Coat Primer – 1 Sơn Lót + 1 Sơn Phủ.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước ngoại thất Dulux Weathershield Bề Mặt .png",
+      "PackagePath": "staticwebassets\\images\\Sơn nước ngoại thất Dulux Weathershield Bề Mặt .png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước ngoại thất Dulux Weathershield Colour Protect Bề Mặt.png",
+      "PackagePath": "staticwebassets\\images\\Sơn nước ngoại thất Dulux Weathershield Colour Protect Bề Mặt.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước ngoại thất Dulux Weathershield Powerflexx Bề Mặt.png",
+      "PackagePath": "staticwebassets\\images\\Sơn nước ngoại thất Dulux Weathershield Powerflexx Bề Mặt.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png",
+      "PackagePath": "staticwebassets\\images\\Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước nội thất cao cấp TOA Nanoclean.png",
+      "PackagePath": "staticwebassets\\images\\Sơn nước nội thất cao cấp TOA Nanoclean.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước nội thất sinh học DULUX BETTER LIVING AIR CLEAN.png",
+      "PackagePath": "staticwebassets\\images\\Sơn nước nội thất sinh học DULUX BETTER LIVING AIR CLEAN.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Tôn Sáng Sóng Vuông Polycacbonate Tấm.png",
+      "PackagePath": "staticwebassets\\images\\Tôn Sáng Sóng Vuông Polycacbonate Tấm.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Tấm Cemboard Ốp Trần Vân Gỗ Smartboard Có Rãnh.png",
+      "PackagePath": "staticwebassets\\images\\Tấm Cemboard Ốp Trần Vân Gỗ Smartboard Có Rãnh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Tấm Lợp Lấy Sáng Polycarbonate Đặc Ruột.png",
+      "PackagePath": "staticwebassets\\images\\Tấm Lợp Lấy Sáng Polycarbonate Đặc Ruột.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Van nhựa Ø34 Bình Minh.png",
+      "PackagePath": "staticwebassets\\images\\Van nhựa Ø34 Bình Minh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catbetong.png",
+      "PackagePath": "staticwebassets\\images\\catbetong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catbetong2.png",
+      "PackagePath": "staticwebassets\\images\\catbetong2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catden.png",
+      "PackagePath": "staticwebassets\\images\\catden.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catden2.png",
+      "PackagePath": "staticwebassets\\images\\catden2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catsanlap.png",
+      "PackagePath": "staticwebassets\\images\\catsanlap.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catsong.png",
+      "PackagePath": "staticwebassets\\images\\catsong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catsong2.png",
+      "PackagePath": "staticwebassets\\images\\catsong2.png"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\catvang.png",
       "PackagePath": "staticwebassets\\images\\catvang.png"
     },
@@ -9,36 +261,448 @@
       "PackagePath": "staticwebassets\\images\\catxayto.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-che-xanh.jpg",
-      "PackagePath": "staticwebassets\\images\\da-che-xanh.jpg"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da12.png",
+      "PackagePath": "staticwebassets\\images\\da12.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-granite-vang.jpg",
-      "PackagePath": "staticwebassets\\images\\da-granite-vang.jpg"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da24.png",
+      "PackagePath": "staticwebassets\\images\\da24.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da-granite.jpg",
-      "PackagePath": "staticwebassets\\images\\da-granite.jpg"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da46.png",
+      "PackagePath": "staticwebassets\\images\\da46.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\da57.png",
+      "PackagePath": "staticwebassets\\images\\da57.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dabazan.png",
+      "PackagePath": "staticwebassets\\images\\dabazan.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacat.png",
+      "PackagePath": "staticwebassets\\images\\dacat.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dache.png",
+      "PackagePath": "staticwebassets\\images\\dache.png"
     },
     {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dacmthach.png",
       "PackagePath": "staticwebassets\\images\\dacmthach.png"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dadam.png",
+      "PackagePath": "staticwebassets\\images\\dadam.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dahoacuong.png",
+      "PackagePath": "staticwebassets\\images\\dahoacuong.png"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dahoc.png",
       "PackagePath": "staticwebassets\\images\\dahoc.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-kim-dinh.jpg",
-      "PackagePath": "staticwebassets\\images\\vlt-xi-mang-kim-dinh.jpg"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\damibui.png",
+      "PackagePath": "staticwebassets\\images\\damibui.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-trang.jpg",
-      "PackagePath": "staticwebassets\\images\\vlt-xi-mang-trang.jpg"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\damisang.png",
+      "PackagePath": "staticwebassets\\images\\damisang.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\vlt-xi-mang-xuan-thanh.jpg",
-      "PackagePath": "staticwebassets\\images\\vlt-xi-mang-xuan-thanh.jpg"
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\daphien.png",
+      "PackagePath": "staticwebassets\\images\\daphien.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\dasoi.png",
+      "PackagePath": "staticwebassets\\images\\dasoi.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\datrang.png",
+      "PackagePath": "staticwebassets\\images\\datrang.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\davoi.png",
+      "PackagePath": "staticwebassets\\images\\davoi.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\daxanhphugiao.png",
+      "PackagePath": "staticwebassets\\images\\daxanhphugiao.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gach-xay-tuong.png",
+      "PackagePath": "staticwebassets\\images\\gach-xay-tuong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachbong.png",
+      "PackagePath": "staticwebassets\\images\\gachbong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachcaosu.png",
+      "PackagePath": "staticwebassets\\images\\gachcaosu.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachchiulua.png",
+      "PackagePath": "staticwebassets\\images\\gachchiulua.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachdaden.png",
+      "PackagePath": "staticwebassets\\images\\gachdaden.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachdanaBU03.png",
+      "PackagePath": "staticwebassets\\images\\gachdanaBU03.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachdinhdac.png",
+      "PackagePath": "staticwebassets\\images\\gachdinhdac.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachhiephung717.png",
+      "PackagePath": "staticwebassets\\images\\gachhiephung717.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachkhongnung.png",
+      "PackagePath": "staticwebassets\\images\\gachkhongnung.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachkinh.png",
+      "PackagePath": "staticwebassets\\images\\gachkinh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachmen.png",
+      "PackagePath": "staticwebassets\\images\\gachmen.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachnhua.png",
+      "PackagePath": "staticwebassets\\images\\gachnhua.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachtau.png",
+      "PackagePath": "staticwebassets\\images\\gachtau.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachtuynel.png",
+      "PackagePath": "staticwebassets\\images\\gachtuynel.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachtuynelhieuthao.png",
+      "PackagePath": "staticwebassets\\images\\gachtuynelhieuthao.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachtuynelngocchung.png",
+      "PackagePath": "staticwebassets\\images\\gachtuynelngocchung.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachtuynelngochung.png",
+      "PackagePath": "staticwebassets\\images\\gachtuynelngochung.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gachtuynelsangtrongnghia.png",
+      "PackagePath": "staticwebassets\\images\\gachtuynelsangtrongnghia.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gobachduong.png",
+      "PackagePath": "staticwebassets\\images\\gobachduong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gocamlai.png",
+      "PackagePath": "staticwebassets\\images\\gocamlai.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gocamxe.png",
+      "PackagePath": "staticwebassets\\images\\gocamxe.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gohong.png",
+      "PackagePath": "staticwebassets\\images\\gohong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gohuong.png",
+      "PackagePath": "staticwebassets\\images\\gohuong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gooccho.png",
+      "PackagePath": "staticwebassets\\images\\gooccho.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gothong.png",
+      "PackagePath": "staticwebassets\\images\\gothong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\gotro.png",
+      "PackagePath": "staticwebassets\\images\\gotro.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image1.png",
+      "PackagePath": "staticwebassets\\images\\image1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image10.png",
+      "PackagePath": "staticwebassets\\images\\image10.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image10g.png",
+      "PackagePath": "staticwebassets\\images\\image10g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image10t.png",
+      "PackagePath": "staticwebassets\\images\\image10t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image11.png",
+      "PackagePath": "staticwebassets\\images\\image11.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image11g.png",
+      "PackagePath": "staticwebassets\\images\\image11g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image11t.png",
+      "PackagePath": "staticwebassets\\images\\image11t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image12.png",
+      "PackagePath": "staticwebassets\\images\\image12.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image12g.png",
+      "PackagePath": "staticwebassets\\images\\image12g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image12t.png",
+      "PackagePath": "staticwebassets\\images\\image12t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image13.png",
+      "PackagePath": "staticwebassets\\images\\image13.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image13t.png",
+      "PackagePath": "staticwebassets\\images\\image13t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image14.png",
+      "PackagePath": "staticwebassets\\images\\image14.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image14t.png",
+      "PackagePath": "staticwebassets\\images\\image14t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image15.png",
+      "PackagePath": "staticwebassets\\images\\image15.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image15t.png",
+      "PackagePath": "staticwebassets\\images\\image15t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image1g.png",
+      "PackagePath": "staticwebassets\\images\\image1g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image1t.png",
+      "PackagePath": "staticwebassets\\images\\image1t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image1x.png",
+      "PackagePath": "staticwebassets\\images\\image1x.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image2.png",
+      "PackagePath": "staticwebassets\\images\\image2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image2g.png",
+      "PackagePath": "staticwebassets\\images\\image2g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image2t.png",
+      "PackagePath": "staticwebassets\\images\\image2t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image2x.png",
+      "PackagePath": "staticwebassets\\images\\image2x.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image3.png",
+      "PackagePath": "staticwebassets\\images\\image3.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image3g.png",
+      "PackagePath": "staticwebassets\\images\\image3g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image3t.png",
+      "PackagePath": "staticwebassets\\images\\image3t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image3x.png",
+      "PackagePath": "staticwebassets\\images\\image3x.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image4.png",
+      "PackagePath": "staticwebassets\\images\\image4.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image4g.png",
+      "PackagePath": "staticwebassets\\images\\image4g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image4t.png",
+      "PackagePath": "staticwebassets\\images\\image4t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image5.png",
+      "PackagePath": "staticwebassets\\images\\image5.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image5g.png",
+      "PackagePath": "staticwebassets\\images\\image5g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image5t.png",
+      "PackagePath": "staticwebassets\\images\\image5t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image6.png",
+      "PackagePath": "staticwebassets\\images\\image6.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image6g.png",
+      "PackagePath": "staticwebassets\\images\\image6g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image6t.png",
+      "PackagePath": "staticwebassets\\images\\image6t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image7.png",
+      "PackagePath": "staticwebassets\\images\\image7.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image7g.png",
+      "PackagePath": "staticwebassets\\images\\image7g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image7t.png",
+      "PackagePath": "staticwebassets\\images\\image7t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image8.png",
+      "PackagePath": "staticwebassets\\images\\image8.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image8g.png",
+      "PackagePath": "staticwebassets\\images\\image8g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image8t.png",
+      "PackagePath": "staticwebassets\\images\\image8t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image9.png",
+      "PackagePath": "staticwebassets\\images\\image9.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image9g.png",
+      "PackagePath": "staticwebassets\\images\\image9g.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\image9t.png",
+      "PackagePath": "staticwebassets\\images\\image9t.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximagfico.png",
+      "PackagePath": "staticwebassets\\images\\ximagfico.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximamgallybuild.png",
+      "PackagePath": "staticwebassets\\images\\ximamgallybuild.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximamgholikem.png",
+      "PackagePath": "staticwebassets\\images\\ximamgholikem.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangcampha.png",
+      "PackagePath": "staticwebassets\\images\\ximangcampha.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangchongtham.png",
+      "PackagePath": "staticwebassets\\images\\ximangchongtham.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximanginsee.png",
+      "PackagePath": "staticwebassets\\images\\ximanginsee.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximanginseeeco.png",
+      "PackagePath": "staticwebassets\\images\\ximanginseeeco.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangnghison.png",
+      "PackagePath": "staticwebassets\\images\\ximangnghison.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangpc40.png",
+      "PackagePath": "staticwebassets\\images\\ximangpc40.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangshahcement.png",
+      "PackagePath": "staticwebassets\\images\\ximangshahcement.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangtanthang.png",
+      "PackagePath": "staticwebassets\\images\\ximangtanthang.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangtaydo.png",
+      "PackagePath": "staticwebassets\\images\\ximangtaydo.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangthanglong.png",
+      "PackagePath": "staticwebassets\\images\\ximangthanglong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangunicorn.png",
+      "PackagePath": "staticwebassets\\images\\ximangunicorn.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangvicemhalong.png",
+      "PackagePath": "staticwebassets\\images\\ximangvicemhalong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\ximangvicemhatien.png",
+      "PackagePath": "staticwebassets\\images\\ximangvicemhatien.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Đồng hồ nước Trung Đức phi 49 DN40.png",
+      "PackagePath": "staticwebassets\\images\\Đồng hồ nước Trung Đức phi 49 DN40.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ống nhựa Bình Minh PVC-U.png",
+      "PackagePath": "staticwebassets\\images\\Ống nhựa Bình Minh PVC-U.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ống nhựa PVC lưới mềm ø25mm Luco, cuộn 50m màu xanh dương.png",
+      "PackagePath": "staticwebassets\\images\\Ống nhựa PVC lưới mềm ø25mm Luco, cuộn 50m màu xanh dương.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ống nhựa mềm lõi thép Ø50mm, cuộn 50m.png",
+      "PackagePath": "staticwebassets\\images\\Ống nhựa mềm lõi thép Ø50mm, cuộn 50m.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ống nhựa mềm Ø35mm Luco, cuộn 40m trong suốt.png",
+      "PackagePath": "staticwebassets\\images\\Ống nhựa mềm Ø35mm Luco, cuộn 40m trong suốt.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Ống nóng ppr phi 32x5.4mm.png",
+      "PackagePath": "staticwebassets\\images\\Ống nóng ppr phi 32x5.4mm.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BanVatLieuXayDung.Microsoft.AspNetCore.StaticWebAssets.props",

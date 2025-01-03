@@ -10,12 +10,16 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
 
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.Configure<VNPaySettings>(builder.Configuration.GetSection("VNPay"));
 
 
 
@@ -31,7 +35,6 @@ builder.Services.AddScoped<CartService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<DiscountService>();
 builder.Services.AddScoped<PromotionalService>();
-builder.Services.AddScoped<PaymentService>();
 builder.Services.AddScoped<InfoUserShippingService>();
 builder.Services.AddScoped<ReviewService>();
 
@@ -45,10 +48,12 @@ builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<DataContext>()
     .AddDefaultTokenProviders();
 
+
+
 // Thêm AutoMapper vào DI container
 builder.Services.AddAutoMapper(typeof(UserMapper)); // Sử dụng UserProfile để cấu hình
 
-// Cấu hình JWT Authentication
+
 // Đăng ký TokenValidationParameters dưới dạng Singleton
 builder.Services.AddSingleton(provider =>
 {
@@ -125,6 +130,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 
 var app = builder.Build();
+
 // Khởi động ứng dụng
 using (var scope = app.Services.CreateScope())    // khởi tạo dữ liệu mặc định trong csdl
 {
@@ -162,6 +168,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 });
+
 
 //cấu hình thư mục tĩnh
 app.UseStaticFiles();

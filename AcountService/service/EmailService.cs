@@ -142,7 +142,6 @@ namespace AcountService.service
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
             if (user == null)
             {
-           
                 // Tránh tiết lộ thông tin người dùng
                 throw new Exception("email không tồn tại");
             }
@@ -176,13 +175,14 @@ namespace AcountService.service
             }
 
             // Tạo liên kết đặt lại mật khẩu
-            var resetLink = $"{_configuration["AppUrl"]}/reset-password.html?token={HttpUtility.UrlEncode(passwordReset?.ResetToken)}";
+            var resetLink = $"{_configuration["AppUrl"]}/reset-password.html?token={HttpUtility.UrlEncode(resetToken)}";
             var subject = "Yêu cầu đặt lại mật khẩu";
-            var body = $"Nhấn vào <a href='{resetLink}'>đây</a> để đặt lại mật khẩu.";
+            var body = $"Nhấn vào <a href='{resetLink}'>đây</a> để đặt lại mật khẩu. Nếu không nhấp được vào liên kết, bạn có thể sao chép và dán liên kết này vào trình duyệt của mình: {resetLink}";
 
             // Gửi email cho người dùng
             await SendEmailAsync(request.Email, subject, body);
         }
+
 
         //Thay đổi lại mật khẩu
         // Thay đổi lại mật khẩu

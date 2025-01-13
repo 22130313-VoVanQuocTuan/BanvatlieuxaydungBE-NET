@@ -2208,22 +2208,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Sơn nước ngoại thất Dulux Weathershield Powerflexx Bề Mặt.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>BanVatLieuXayDung</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/BanVatLieuXayDung</BasePath>
-      <RelativePath>images/Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\SƠN NƯỚC NGOẠI THẤT SUPERTECH PRO EXTERIOR.png))">
       <SourceType>Package</SourceType>
       <SourceId>BanVatLieuXayDung</SourceId>

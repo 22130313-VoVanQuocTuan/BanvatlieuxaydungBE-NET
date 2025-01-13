@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
@@ -124,8 +125,8 @@ builder.Services.AddAuthorization(options =>
 
 
 // Cấu hình các dịch vụ khác
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddControllers(); //thêm các dịch vụ cần thiết để ứng dụng có thể sử dụng các controller.
+builder.Services.AddEndpointsApiExplorer(); //liệt kê các endpoint API của ứng dụng
 
 
 
@@ -155,13 +156,13 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<StatusErrorCode>();
 
 // Bật HTTPS Redirection
-app.UseHttpsRedirection();
+app.UseHttpsRedirection(); //mọi yêu cầu HTTP không an toàn sẽ tự động được chuyển hướng đến phiên bản HTTPS tương ứng
 
 //// Bật Xác thực
-app.UseAuthentication();
+app.UseAuthentication(); //xác minh danh tính người dùng.
 
 // Bật Ủy quyền
-app.UseAuthorization();
+app.UseAuthorization(); //xác định xem người dùng có quyền truy cập vào tài nguyên
 
 // Ánh xạ các controller
 app.UseEndpoints(endpoints =>

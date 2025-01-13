@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P+iTpnZ3oO3oRMjyWQ8xUU4QDtK+AGCg5h7c7MJmwBA=",
+  "Hash": "DcuvnPsZ9m9uxlGQqhh30TIuJrJUbBCI7BZclY/iHQo=",
   "Source": "BanVatLieuXayDung",
   "BasePath": "_content/BanVatLieuXayDung",
   "Mode": "Default",
@@ -2884,25 +2884,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Sơn nước ngoại thất Dulux Weathershield Powerflexx Bề Mặt.png"
-    },
-    {
-      "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png",
-      "SourceId": "BanVatLieuXayDung",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\",
-      "BasePath": "_content/BanVatLieuXayDung",
-      "RelativePath": "images/Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Sơn nước ngoại thất Maxilite Tough từ Dulux Bề Mặt.png"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\source\\repos\\Ban_Vat_Lieu_Xay_Dung_BE_NET\\AcountService\\wwwroot\\images\\SƠN NƯỚC NGOẠI THẤT SUPERTECH PRO EXTERIOR.png",
